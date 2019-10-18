@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D2676D21CAFDD6700843903 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2676D11CAFDD6700843903 /* Default-568h@2x.png */; };
+		CE6B79B716D509720079859A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6B79B616D509720079859A /* UIKit.framework */; };
+		CE6B79B916D509720079859A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6B79B816D509720079859A /* Foundation.framework */; };
+		CE6B79BB16D509720079859A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6B79BA16D509720079859A /* CoreGraphics.framework */; };
+		CE6B79C016D509720079859A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE6B79BE16D509720079859A /* InfoPlist.strings */; };
+		CE6B79C216D509720079859A /* ExampleReadWrite-main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6B79C116D509720079859A /* ExampleReadWrite-main.m */; };
+		CE6B79C516D509720079859A /* ExampleReadWriteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6B79C416D509720079859A /* ExampleReadWriteAppDelegate.m */; };
+		CE6B79C816D509720079859A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6B79C616D509720079859A /* MainWindow.xib */; };
+		CE6B79CB16D509720079859A /* ExampleReadWriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6B79CA16D509720079859A /* ExampleReadWriteViewController.m */; };
+		CE6B79CE16D509720079859A /* ExampleReadWriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6B79CC16D509720079859A /* ExampleReadWriteViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D2676D11CAFDD6700843903 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE6B79B316D509720079859A /* ExampleReadWrite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleReadWrite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6B79B616D509720079859A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE6B79B816D509720079859A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE6B79BA16D509720079859A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE6B79BC16D509720079859A /* ExampleReadWrite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleReadWrite-Info.plist"; sourceTree = "<group>"; };
+		CE6B79BD16D509720079859A /* ExampleReadWrite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExampleReadWrite-Prefix.pch"; sourceTree = "<group>"; };
+		CE6B79BF16D509720079859A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE6B79C116D509720079859A /* ExampleReadWrite-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ExampleReadWrite-main.m"; sourceTree = "<group>"; };
+		CE6B79C316D509720079859A /* ExampleReadWriteAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleReadWriteAppDelegate.h; sourceTree = "<group>"; };
+		CE6B79C416D509720079859A /* ExampleReadWriteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleReadWriteAppDelegate.m; sourceTree = "<group>"; };
+		CE6B79C716D509720079859A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CE6B79C916D509720079859A /* ExampleReadWriteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleReadWriteViewController.h; sourceTree = "<group>"; };
+		CE6B79CA16D509720079859A /* ExampleReadWriteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleReadWriteViewController.m; sourceTree = "<group>"; };
+		CE6B79CD16D509720079859A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ExampleReadWriteViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE6B79B016D509720079859A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6B79B716D509720079859A /* UIKit.framework in Frameworks */,
+				CE6B79B916D509720079859A /* Foundation.framework in Frameworks */,
+				CE6B79BB16D509720079859A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE6B79A416D509720079859A = {
+			isa = PBXGroup;
+			children = (
+				8D2676D11CAFDD6700843903 /* Default-568h@2x.png */,
+				CE6B79AB16D509720079859A /* Classes */,
+				CE6B79AC16D509720079859A /* Other Sources */,
+				CE6B79AD16D509720079859A /* Resources */,
+				CE6B79AE16D509720079859A /* Frameworks */,
+				CE6B79B416D509720079859A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE6B79AB16D509720079859A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B79C316D509720079859A /* ExampleReadWriteAppDelegate.h */,
+				CE6B79C416D509720079859A /* ExampleReadWriteAppDelegate.m */,
+				CE6B79C916D509720079859A /* ExampleReadWriteViewController.h */,
+				CE6B79CA16D509720079859A /* ExampleReadWriteViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CE6B79AC16D509720079859A /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B79BD16D509720079859A /* ExampleReadWrite-Prefix.pch */,
+				CE6B79C116D509720079859A /* ExampleReadWrite-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		CE6B79AD16D509720079859A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B79BC16D509720079859A /* ExampleReadWrite-Info.plist */,
+				CE6B79BE16D509720079859A /* InfoPlist.strings */,
+				CE6B79C616D509720079859A /* MainWindow.xib */,
+				CE6B79CC16D509720079859A /* ExampleReadWriteViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CE6B79AE16D509720079859A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B79B616D509720079859A /* UIKit.framework */,
+				CE6B79B816D509720079859A /* Foundation.framework */,
+				CE6B79BA16D509720079859A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE6B79B416D509720079859A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B79B316D509720079859A /* ExampleReadWrite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE6B79B216D509720079859A /* ExampleReadWrite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6B79D116D509720079859A /* Build configuration list for PBXNativeTarget "ExampleReadWrite" */;
+			buildPhases = (
+				CE6B79AF16D509720079859A /* Sources */,
+				CE6B79B016D509720079859A /* Frameworks */,
+				CE6B79B116D509720079859A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleReadWrite;
+			productName = ExampleReadWrite;
+			productReference = CE6B79B316D509720079859A /* ExampleReadWrite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE6B79A616D509720079859A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = CE6B79A916D509720079859A /* Build configuration list for PBXProject "ExampleReadWrite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE6B79A416D509720079859A;
+			productRefGroup = CE6B79B416D509720079859A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE6B79B216D509720079859A /* ExampleReadWrite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE6B79B116D509720079859A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6B79C016D509720079859A /* InfoPlist.strings in Resources */,
+				8D2676D21CAFDD6700843903 /* Default-568h@2x.png in Resources */,
+				CE6B79C816D509720079859A /* MainWindow.xib in Resources */,
+				CE6B79CE16D509720079859A /* ExampleReadWriteViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE6B79AF16D509720079859A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6B79C216D509720079859A /* ExampleReadWrite-main.m in Sources */,
+				CE6B79C516D509720079859A /* ExampleReadWriteAppDelegate.m in Sources */,
+				CE6B79CB16D509720079859A /* ExampleReadWriteViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE6B79BE16D509720079859A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6B79BF16D509720079859A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE6B79C616D509720079859A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6B79C716D509720079859A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CE6B79CC16D509720079859A /* ExampleReadWriteViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6B79CD16D509720079859A /* en */,
+			);
+			name = ExampleReadWriteViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE6B79CF16D509720079859A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE6B79D016D509720079859A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CE6B79D216D509720079859A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleReadWrite-Prefix.pch";
+				INFOPLIST_FILE = "ExampleReadWrite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE6B79D316D509720079859A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleReadWrite-Prefix.pch";
+				INFOPLIST_FILE = "ExampleReadWrite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE6B79A916D509720079859A /* Build configuration list for PBXProject "ExampleReadWrite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6B79CF16D509720079859A /* Debug */,
+				CE6B79D016D509720079859A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6B79D116D509720079859A /* Build configuration list for PBXNativeTarget "ExampleReadWrite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6B79D216D509720079859A /* Debug */,
+				CE6B79D316D509720079859A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE6B79A616D509720079859A /* Project object */;
+}

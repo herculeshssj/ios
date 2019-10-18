@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DB71EA21CAF7464006F0130 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DB71EA11CAF7464006F0130 /* Default-568h@2x.png */; };
+		CEFE25B31664F427002D01C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFE25B21664F427002D01C5 /* UIKit.framework */; };
+		CEFE25B51664F427002D01C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFE25B41664F427002D01C5 /* Foundation.framework */; };
+		CEFE25B71664F427002D01C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFE25B61664F427002D01C5 /* CoreGraphics.framework */; };
+		CEFE25BC1664F427002D01C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEFE25BA1664F427002D01C5 /* InfoPlist.strings */; };
+		CEFE25BE1664F427002D01C5 /* ExampleNavController-main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFE25BD1664F427002D01C5 /* ExampleNavController-main.m */; };
+		CEFE25C11664F427002D01C5 /* ExampleNavControllerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFE25C01664F427002D01C5 /* ExampleNavControllerAppDelegate.m */; };
+		CEFE25C41664F428002D01C5 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFE25C21664F428002D01C5 /* MainWindow_iPhone.xib */; };
+		CEFE25C71664F428002D01C5 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFE25C51664F428002D01C5 /* MainWindow_iPad.xib */; };
+		CEFE25CA1664F428002D01C5 /* ExampleNavControllerAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFE25C91664F428002D01C5 /* ExampleNavControllerAppDelegate_iPhone.m */; };
+		CEFE25CD1664F428002D01C5 /* ExampleNavControllerAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFE25CC1664F428002D01C5 /* ExampleNavControllerAppDelegate_iPad.m */; };
+		CEFE25D61664F443002D01C5 /* FirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFE25D41664F443002D01C5 /* FirstView.m */; };
+		CEFE25D71664F443002D01C5 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFE25D51664F443002D01C5 /* FirstView.xib */; };
+		CEFE25DB1664F44C002D01C5 /* SecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFE25D91664F44C002D01C5 /* SecondView.m */; };
+		CEFE25DC1664F44C002D01C5 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFE25DA1664F44C002D01C5 /* SecondView.xib */; };
+		CEFE25E01664F45B002D01C5 /* ThirdView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFE25DE1664F45B002D01C5 /* ThirdView.m */; };
+		CEFE25E11664F45B002D01C5 /* ThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFE25DF1664F45B002D01C5 /* ThirdView.xib */; };
+		CEFE25E51664F465002D01C5 /* ForthView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFE25E31664F465002D01C5 /* ForthView.m */; };
+		CEFE25E61664F465002D01C5 /* ForthView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFE25E41664F465002D01C5 /* ForthView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8DB71EA11CAF7464006F0130 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEFE25AF1664F427002D01C5 /* ExampleNavController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleNavController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFE25B21664F427002D01C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEFE25B41664F427002D01C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEFE25B61664F427002D01C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEFE25B81664F427002D01C5 /* ExampleNavController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleNavController-Info.plist"; sourceTree = "<group>"; };
+		CEFE25B91664F427002D01C5 /* ExampleNavController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExampleNavController-Prefix.pch"; sourceTree = "<group>"; };
+		CEFE25BB1664F427002D01C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEFE25BD1664F427002D01C5 /* ExampleNavController-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ExampleNavController-main.m"; sourceTree = "<group>"; };
+		CEFE25BF1664F427002D01C5 /* ExampleNavControllerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleNavControllerAppDelegate.h; sourceTree = "<group>"; };
+		CEFE25C01664F427002D01C5 /* ExampleNavControllerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleNavControllerAppDelegate.m; sourceTree = "<group>"; };
+		CEFE25C31664F428002D01C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		CEFE25C61664F428002D01C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		CEFE25C81664F428002D01C5 /* ExampleNavControllerAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleNavControllerAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		CEFE25C91664F428002D01C5 /* ExampleNavControllerAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleNavControllerAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		CEFE25CB1664F428002D01C5 /* ExampleNavControllerAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleNavControllerAppDelegate_iPad.h; sourceTree = "<group>"; };
+		CEFE25CC1664F428002D01C5 /* ExampleNavControllerAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleNavControllerAppDelegate_iPad.m; sourceTree = "<group>"; };
+		CEFE25D31664F443002D01C5 /* FirstView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstView.h; sourceTree = "<group>"; };
+		CEFE25D41664F443002D01C5 /* FirstView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstView.m; sourceTree = "<group>"; };
+		CEFE25D51664F443002D01C5 /* FirstView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
+		CEFE25D81664F44C002D01C5 /* SecondView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondView.h; sourceTree = "<group>"; };
+		CEFE25D91664F44C002D01C5 /* SecondView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondView.m; sourceTree = "<group>"; };
+		CEFE25DA1664F44C002D01C5 /* SecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
+		CEFE25DD1664F45B002D01C5 /* ThirdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdView.h; sourceTree = "<group>"; };
+		CEFE25DE1664F45B002D01C5 /* ThirdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdView.m; sourceTree = "<group>"; };
+		CEFE25DF1664F45B002D01C5 /* ThirdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdView.xib; sourceTree = "<group>"; };
+		CEFE25E21664F465002D01C5 /* ForthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForthView.h; sourceTree = "<group>"; };
+		CEFE25E31664F465002D01C5 /* ForthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForthView.m; sourceTree = "<group>"; };
+		CEFE25E41664F465002D01C5 /* ForthView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForthView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFE25AC1664F427002D01C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFE25B31664F427002D01C5 /* UIKit.framework in Frameworks */,
+				CEFE25B51664F427002D01C5 /* Foundation.framework in Frameworks */,
+				CEFE25B71664F427002D01C5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEFE259E1664F427002D01C5 = {
+			isa = PBXGroup;
+			children = (
+				8DB71EA11CAF7464006F0130 /* Default-568h@2x.png */,
+				CEFE25A51664F427002D01C5 /* iPhone */,
+				CEFE25A61664F427002D01C5 /* iPad */,
+				CEFE25A71664F427002D01C5 /* Classes */,
+				CEFE25A81664F427002D01C5 /* Other Sources */,
+				CEFE25A91664F427002D01C5 /* Resources */,
+				CEFE25AA1664F427002D01C5 /* Frameworks */,
+				CEFE25B01664F427002D01C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFE25A51664F427002D01C5 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				CEFE25E71664F46C002D01C5 /* XIB */,
+				CEFE25C81664F428002D01C5 /* ExampleNavControllerAppDelegate_iPhone.h */,
+				CEFE25C91664F428002D01C5 /* ExampleNavControllerAppDelegate_iPhone.m */,
+				CEFE25D31664F443002D01C5 /* FirstView.h */,
+				CEFE25D41664F443002D01C5 /* FirstView.m */,
+				CEFE25D81664F44C002D01C5 /* SecondView.h */,
+				CEFE25D91664F44C002D01C5 /* SecondView.m */,
+				CEFE25DD1664F45B002D01C5 /* ThirdView.h */,
+				CEFE25DE1664F45B002D01C5 /* ThirdView.m */,
+				CEFE25E21664F465002D01C5 /* ForthView.h */,
+				CEFE25E31664F465002D01C5 /* ForthView.m */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CEFE25A61664F427002D01C5 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				CEFE25C51664F428002D01C5 /* MainWindow_iPad.xib */,
+				CEFE25CB1664F428002D01C5 /* ExampleNavControllerAppDelegate_iPad.h */,
+				CEFE25CC1664F428002D01C5 /* ExampleNavControllerAppDelegate_iPad.m */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CEFE25A71664F427002D01C5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEFE25BF1664F427002D01C5 /* ExampleNavControllerAppDelegate.h */,
+				CEFE25C01664F427002D01C5 /* ExampleNavControllerAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CEFE25A81664F427002D01C5 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CEFE25B91664F427002D01C5 /* ExampleNavController-Prefix.pch */,
+				CEFE25BD1664F427002D01C5 /* ExampleNavController-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		CEFE25A91664F427002D01C5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEFE25B81664F427002D01C5 /* ExampleNavController-Info.plist */,
+				CEFE25BA1664F427002D01C5 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CEFE25AA1664F427002D01C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEFE25B21664F427002D01C5 /* UIKit.framework */,
+				CEFE25B41664F427002D01C5 /* Foundation.framework */,
+				CEFE25B61664F427002D01C5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEFE25B01664F427002D01C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFE25AF1664F427002D01C5 /* ExampleNavController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFE25E71664F46C002D01C5 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				CEFE25C21664F428002D01C5 /* MainWindow_iPhone.xib */,
+				CEFE25D51664F443002D01C5 /* FirstView.xib */,
+				CEFE25DA1664F44C002D01C5 /* SecondView.xib */,
+				CEFE25DF1664F45B002D01C5 /* ThirdView.xib */,
+				CEFE25E41664F465002D01C5 /* ForthView.xib */,
+			);
+			name = XIB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFE25AE1664F427002D01C5 /* ExampleNavController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFE25D01664F428002D01C5 /* Build configuration list for PBXNativeTarget "ExampleNavController" */;
+			buildPhases = (
+				CEFE25AB1664F427002D01C5 /* Sources */,
+				CEFE25AC1664F427002D01C5 /* Frameworks */,
+				CEFE25AD1664F427002D01C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleNavController;
+			productName = ExampleNavController;
+			productReference = CEFE25AF1664F427002D01C5 /* ExampleNavController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFE25A01664F427002D01C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = CEFE25A31664F427002D01C5 /* Build configuration list for PBXProject "ExampleNavController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEFE259E1664F427002D01C5;
+			productRefGroup = CEFE25B01664F427002D01C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFE25AE1664F427002D01C5 /* ExampleNavController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFE25AD1664F427002D01C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFE25BC1664F427002D01C5 /* InfoPlist.strings in Resources */,
+				CEFE25C41664F428002D01C5 /* MainWindow_iPhone.xib in Resources */,
+				CEFE25C71664F428002D01C5 /* MainWindow_iPad.xib in Resources */,
+				CEFE25D71664F443002D01C5 /* FirstView.xib in Resources */,
+				CEFE25DC1664F44C002D01C5 /* SecondView.xib in Resources */,
+				8DB71EA21CAF7464006F0130 /* Default-568h@2x.png in Resources */,
+				CEFE25E11664F45B002D01C5 /* ThirdView.xib in Resources */,
+				CEFE25E61664F465002D01C5 /* ForthView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFE25AB1664F427002D01C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFE25BE1664F427002D01C5 /* ExampleNavController-main.m in Sources */,
+				CEFE25C11664F427002D01C5 /* ExampleNavControllerAppDelegate.m in Sources */,
+				CEFE25CA1664F428002D01C5 /* ExampleNavControllerAppDelegate_iPhone.m in Sources */,
+				CEFE25CD1664F428002D01C5 /* ExampleNavControllerAppDelegate_iPad.m in Sources */,
+				CEFE25D61664F443002D01C5 /* FirstView.m in Sources */,
+				CEFE25DB1664F44C002D01C5 /* SecondView.m in Sources */,
+				CEFE25E01664F45B002D01C5 /* ThirdView.m in Sources */,
+				CEFE25E51664F465002D01C5 /* ForthView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEFE25BA1664F427002D01C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFE25BB1664F427002D01C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEFE25C21664F428002D01C5 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFE25C31664F428002D01C5 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		CEFE25C51664F428002D01C5 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFE25C61664F428002D01C5 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFE25CE1664F428002D01C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEFE25CF1664F428002D01C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEFE25D11664F428002D01C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleNavController-Prefix.pch";
+				INFOPLIST_FILE = "ExampleNavController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEFE25D21664F428002D01C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleNavController-Prefix.pch";
+				INFOPLIST_FILE = "ExampleNavController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFE25A31664F427002D01C5 /* Build configuration list for PBXProject "ExampleNavController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFE25CE1664F428002D01C5 /* Debug */,
+				CEFE25CF1664F428002D01C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFE25D01664F428002D01C5 /* Build configuration list for PBXNativeTarget "ExampleNavController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFE25D11664F428002D01C5 /* Debug */,
+				CEFE25D21664F428002D01C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEFE25A01664F427002D01C5 /* Project object */;
+}

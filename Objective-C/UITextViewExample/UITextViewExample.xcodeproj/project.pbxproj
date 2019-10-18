@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D2676F61CAFE9A600843903 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2676F51CAFE9A600843903 /* Default-568h@2x.png */; };
+		CEFC2322160CF2FC00767183 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFC2321160CF2FC00767183 /* UIKit.framework */; };
+		CEFC2324160CF2FC00767183 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFC2323160CF2FC00767183 /* Foundation.framework */; };
+		CEFC2326160CF2FC00767183 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFC2325160CF2FC00767183 /* CoreGraphics.framework */; };
+		CEFC232B160CF2FC00767183 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEFC2329160CF2FC00767183 /* InfoPlist.strings */; };
+		CEFC232D160CF2FC00767183 /* UITextViewExample-main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC232C160CF2FC00767183 /* UITextViewExample-main.m */; };
+		CEFC2330160CF2FC00767183 /* UITextViewExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC232F160CF2FC00767183 /* UITextViewExampleAppDelegate.m */; };
+		CEFC2333160CF2FC00767183 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFC2331160CF2FC00767183 /* MainWindow.xib */; };
+		CEFC2336160CF2FC00767183 /* UITextViewExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC2335160CF2FC00767183 /* UITextViewExampleViewController.m */; };
+		CEFC2339160CF2FD00767183 /* UITextViewExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFC2337160CF2FD00767183 /* UITextViewExampleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D2676F51CAFE9A600843903 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEFC231E160CF2FC00767183 /* UITextViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITextViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFC2321160CF2FC00767183 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEFC2323160CF2FC00767183 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEFC2325160CF2FC00767183 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEFC2327160CF2FC00767183 /* UITextViewExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITextViewExample-Info.plist"; sourceTree = "<group>"; };
+		CEFC2328160CF2FC00767183 /* UITextViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextViewExample-Prefix.pch"; sourceTree = "<group>"; };
+		CEFC232A160CF2FC00767183 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEFC232C160CF2FC00767183 /* UITextViewExample-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextViewExample-main.m"; sourceTree = "<group>"; };
+		CEFC232E160CF2FC00767183 /* UITextViewExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITextViewExampleAppDelegate.h; sourceTree = "<group>"; };
+		CEFC232F160CF2FC00767183 /* UITextViewExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextViewExampleAppDelegate.m; sourceTree = "<group>"; };
+		CEFC2332160CF2FC00767183 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CEFC2334160CF2FC00767183 /* UITextViewExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITextViewExampleViewController.h; sourceTree = "<group>"; };
+		CEFC2335160CF2FC00767183 /* UITextViewExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextViewExampleViewController.m; sourceTree = "<group>"; };
+		CEFC2338160CF2FD00767183 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UITextViewExampleViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFC231B160CF2FC00767183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFC2322160CF2FC00767183 /* UIKit.framework in Frameworks */,
+				CEFC2324160CF2FC00767183 /* Foundation.framework in Frameworks */,
+				CEFC2326160CF2FC00767183 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEFC230F160CF2FC00767183 = {
+			isa = PBXGroup;
+			children = (
+				8D2676F51CAFE9A600843903 /* Default-568h@2x.png */,
+				CEFC2316160CF2FC00767183 /* Classes */,
+				CEFC2317160CF2FC00767183 /* Other Sources */,
+				CEFC2318160CF2FC00767183 /* Resources */,
+				CEFC2319160CF2FC00767183 /* Frameworks */,
+				CEFC231F160CF2FC00767183 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFC2316160CF2FC00767183 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC232E160CF2FC00767183 /* UITextViewExampleAppDelegate.h */,
+				CEFC232F160CF2FC00767183 /* UITextViewExampleAppDelegate.m */,
+				CEFC2334160CF2FC00767183 /* UITextViewExampleViewController.h */,
+				CEFC2335160CF2FC00767183 /* UITextViewExampleViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CEFC2317160CF2FC00767183 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC2328160CF2FC00767183 /* UITextViewExample-Prefix.pch */,
+				CEFC232C160CF2FC00767183 /* UITextViewExample-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		CEFC2318160CF2FC00767183 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC2327160CF2FC00767183 /* UITextViewExample-Info.plist */,
+				CEFC2329160CF2FC00767183 /* InfoPlist.strings */,
+				CEFC2331160CF2FC00767183 /* MainWindow.xib */,
+				CEFC2337160CF2FD00767183 /* UITextViewExampleViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CEFC2319160CF2FC00767183 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC2321160CF2FC00767183 /* UIKit.framework */,
+				CEFC2323160CF2FC00767183 /* Foundation.framework */,
+				CEFC2325160CF2FC00767183 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEFC231F160CF2FC00767183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC231E160CF2FC00767183 /* UITextViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFC231D160CF2FC00767183 /* UITextViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFC233C160CF2FD00767183 /* Build configuration list for PBXNativeTarget "UITextViewExample" */;
+			buildPhases = (
+				CEFC231A160CF2FC00767183 /* Sources */,
+				CEFC231B160CF2FC00767183 /* Frameworks */,
+				CEFC231C160CF2FC00767183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITextViewExample;
+			productName = UITextViewExample;
+			productReference = CEFC231E160CF2FC00767183 /* UITextViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFC2311160CF2FC00767183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = CEFC2314160CF2FC00767183 /* Build configuration list for PBXProject "UITextViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEFC230F160CF2FC00767183;
+			productRefGroup = CEFC231F160CF2FC00767183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFC231D160CF2FC00767183 /* UITextViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFC231C160CF2FC00767183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFC232B160CF2FC00767183 /* InfoPlist.strings in Resources */,
+				8D2676F61CAFE9A600843903 /* Default-568h@2x.png in Resources */,
+				CEFC2333160CF2FC00767183 /* MainWindow.xib in Resources */,
+				CEFC2339160CF2FD00767183 /* UITextViewExampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFC231A160CF2FC00767183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFC232D160CF2FC00767183 /* UITextViewExample-main.m in Sources */,
+				CEFC2330160CF2FC00767183 /* UITextViewExampleAppDelegate.m in Sources */,
+				CEFC2336160CF2FC00767183 /* UITextViewExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEFC2329160CF2FC00767183 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFC232A160CF2FC00767183 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEFC2331160CF2FC00767183 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFC2332160CF2FC00767183 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CEFC2337160CF2FD00767183 /* UITextViewExampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFC2338160CF2FD00767183 /* en */,
+			);
+			name = UITextViewExampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFC233A160CF2FD00767183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEFC233B160CF2FD00767183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CEFC233D160CF2FD00767183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITextViewExample-Prefix.pch";
+				INFOPLIST_FILE = "UITextViewExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEFC233E160CF2FD00767183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITextViewExample-Prefix.pch";
+				INFOPLIST_FILE = "UITextViewExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFC2314160CF2FC00767183 /* Build configuration list for PBXProject "UITextViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFC233A160CF2FD00767183 /* Debug */,
+				CEFC233B160CF2FD00767183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFC233C160CF2FD00767183 /* Build configuration list for PBXNativeTarget "UITextViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFC233D160CF2FD00767183 /* Debug */,
+				CEFC233E160CF2FD00767183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEFC2311160CF2FC00767183 /* Project object */;
+}

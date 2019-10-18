@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D2677021CAFEBDD00843903 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2677011CAFEBDD00843903 /* Default-568h@2x.png */; };
+		CEF5BDC515B7547700E300A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF5BDC415B7547700E300A4 /* UIKit.framework */; };
+		CEF5BDC715B7547700E300A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF5BDC615B7547700E300A4 /* Foundation.framework */; };
+		CEF5BDC915B7547700E300A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF5BDC815B7547700E300A4 /* CoreGraphics.framework */; };
+		CEF5BDCE15B7547700E300A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEF5BDCC15B7547700E300A4 /* InfoPlist.strings */; };
+		CEF5BDD015B7547700E300A4 /* SliderExample-main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF5BDCF15B7547700E300A4 /* SliderExample-main.m */; };
+		CEF5BDD315B7547700E300A4 /* SliderExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF5BDD215B7547700E300A4 /* SliderExampleAppDelegate.m */; };
+		CEF5BDD615B7547700E300A4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF5BDD415B7547700E300A4 /* MainWindow.xib */; };
+		CEF5BDD915B7547700E300A4 /* SliderExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF5BDD815B7547700E300A4 /* SliderExampleViewController.m */; };
+		CEF5BDDC15B7547700E300A4 /* SliderExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF5BDDA15B7547700E300A4 /* SliderExampleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D2677011CAFEBDD00843903 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEF5BDC115B7547700E300A4 /* SliderExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF5BDC415B7547700E300A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEF5BDC615B7547700E300A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEF5BDC815B7547700E300A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEF5BDCA15B7547700E300A4 /* SliderExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SliderExample-Info.plist"; sourceTree = "<group>"; };
+		CEF5BDCB15B7547700E300A4 /* SliderExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SliderExample-Prefix.pch"; sourceTree = "<group>"; };
+		CEF5BDCD15B7547700E300A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEF5BDCF15B7547700E300A4 /* SliderExample-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SliderExample-main.m"; sourceTree = "<group>"; };
+		CEF5BDD115B7547700E300A4 /* SliderExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SliderExampleAppDelegate.h; sourceTree = "<group>"; };
+		CEF5BDD215B7547700E300A4 /* SliderExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderExampleAppDelegate.m; sourceTree = "<group>"; };
+		CEF5BDD515B7547700E300A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CEF5BDD715B7547700E300A4 /* SliderExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SliderExampleViewController.h; sourceTree = "<group>"; };
+		CEF5BDD815B7547700E300A4 /* SliderExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderExampleViewController.m; sourceTree = "<group>"; };
+		CEF5BDDB15B7547700E300A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SliderExampleViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF5BDBE15B7547700E300A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF5BDC515B7547700E300A4 /* UIKit.framework in Frameworks */,
+				CEF5BDC715B7547700E300A4 /* Foundation.framework in Frameworks */,
+				CEF5BDC915B7547700E300A4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEF5BDB215B7547700E300A4 = {
+			isa = PBXGroup;
+			children = (
+				8D2677011CAFEBDD00843903 /* Default-568h@2x.png */,
+				CEF5BDB915B7547700E300A4 /* Classes */,
+				CEF5BDBA15B7547700E300A4 /* Other Sources */,
+				CEF5BDBB15B7547700E300A4 /* Resources */,
+				CEF5BDBC15B7547700E300A4 /* Frameworks */,
+				CEF5BDC215B7547700E300A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF5BDB915B7547700E300A4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEF5BDD115B7547700E300A4 /* SliderExampleAppDelegate.h */,
+				CEF5BDD215B7547700E300A4 /* SliderExampleAppDelegate.m */,
+				CEF5BDD715B7547700E300A4 /* SliderExampleViewController.h */,
+				CEF5BDD815B7547700E300A4 /* SliderExampleViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CEF5BDBA15B7547700E300A4 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CEF5BDCB15B7547700E300A4 /* SliderExample-Prefix.pch */,
+				CEF5BDCF15B7547700E300A4 /* SliderExample-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		CEF5BDBB15B7547700E300A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEF5BDCA15B7547700E300A4 /* SliderExample-Info.plist */,
+				CEF5BDCC15B7547700E300A4 /* InfoPlist.strings */,
+				CEF5BDD415B7547700E300A4 /* MainWindow.xib */,
+				CEF5BDDA15B7547700E300A4 /* SliderExampleViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CEF5BDBC15B7547700E300A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEF5BDC415B7547700E300A4 /* UIKit.framework */,
+				CEF5BDC615B7547700E300A4 /* Foundation.framework */,
+				CEF5BDC815B7547700E300A4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEF5BDC215B7547700E300A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF5BDC115B7547700E300A4 /* SliderExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF5BDC015B7547700E300A4 /* SliderExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF5BDDF15B7547700E300A4 /* Build configuration list for PBXNativeTarget "SliderExample" */;
+			buildPhases = (
+				CEF5BDBD15B7547700E300A4 /* Sources */,
+				CEF5BDBE15B7547700E300A4 /* Frameworks */,
+				CEF5BDBF15B7547700E300A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SliderExample;
+			productName = SliderExample;
+			productReference = CEF5BDC115B7547700E300A4 /* SliderExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF5BDB415B7547700E300A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = CEF5BDB715B7547700E300A4 /* Build configuration list for PBXProject "SliderExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEF5BDB215B7547700E300A4;
+			productRefGroup = CEF5BDC215B7547700E300A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF5BDC015B7547700E300A4 /* SliderExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF5BDBF15B7547700E300A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF5BDCE15B7547700E300A4 /* InfoPlist.strings in Resources */,
+				8D2677021CAFEBDD00843903 /* Default-568h@2x.png in Resources */,
+				CEF5BDD615B7547700E300A4 /* MainWindow.xib in Resources */,
+				CEF5BDDC15B7547700E300A4 /* SliderExampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF5BDBD15B7547700E300A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF5BDD015B7547700E300A4 /* SliderExample-main.m in Sources */,
+				CEF5BDD315B7547700E300A4 /* SliderExampleAppDelegate.m in Sources */,
+				CEF5BDD915B7547700E300A4 /* SliderExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEF5BDCC15B7547700E300A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF5BDCD15B7547700E300A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEF5BDD415B7547700E300A4 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF5BDD515B7547700E300A4 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CEF5BDDA15B7547700E300A4 /* SliderExampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF5BDDB15B7547700E300A4 /* en */,
+			);
+			name = SliderExampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF5BDDD15B7547700E300A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEF5BDDE15B7547700E300A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CEF5BDE015B7547700E300A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SliderExample-Prefix.pch";
+				INFOPLIST_FILE = "SliderExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEF5BDE115B7547700E300A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SliderExample-Prefix.pch";
+				INFOPLIST_FILE = "SliderExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF5BDB715B7547700E300A4 /* Build configuration list for PBXProject "SliderExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF5BDDD15B7547700E300A4 /* Debug */,
+				CEF5BDDE15B7547700E300A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF5BDDF15B7547700E300A4 /* Build configuration list for PBXNativeTarget "SliderExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF5BDE015B7547700E300A4 /* Debug */,
+				CEF5BDE115B7547700E300A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF5BDB415B7547700E300A4 /* Project object */;
+}

@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D2677041CAFEC2200843903 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2677031CAFEC2200843903 /* Default-568h@2x.png */; };
+		CEA3B515160D3DD100D7D534 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA3B514160D3DD100D7D534 /* UIKit.framework */; };
+		CEA3B517160D3DD100D7D534 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA3B516160D3DD100D7D534 /* Foundation.framework */; };
+		CEA3B519160D3DD100D7D534 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA3B518160D3DD100D7D534 /* CoreGraphics.framework */; };
+		CEA3B51E160D3DD100D7D534 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEA3B51C160D3DD100D7D534 /* InfoPlist.strings */; };
+		CEA3B520160D3DD100D7D534 /* SimplePageControlExample-main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA3B51F160D3DD100D7D534 /* SimplePageControlExample-main.m */; };
+		CEA3B523160D3DD100D7D534 /* SimplePageControlExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA3B522160D3DD100D7D534 /* SimplePageControlExampleAppDelegate.m */; };
+		CEA3B526160D3DD100D7D534 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA3B524160D3DD100D7D534 /* MainWindow.xib */; };
+		CEA3B529160D3DD100D7D534 /* SimplePageControlExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA3B528160D3DD100D7D534 /* SimplePageControlExampleViewController.m */; };
+		CEA3B52C160D3DD100D7D534 /* SimplePageControlExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA3B52A160D3DD100D7D534 /* SimplePageControlExampleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D2677031CAFEC2200843903 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEA3B511160D3DD100D7D534 /* SimplePageControlExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePageControlExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA3B514160D3DD100D7D534 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEA3B516160D3DD100D7D534 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEA3B518160D3DD100D7D534 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEA3B51A160D3DD100D7D534 /* SimplePageControlExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimplePageControlExample-Info.plist"; sourceTree = "<group>"; };
+		CEA3B51B160D3DD100D7D534 /* SimplePageControlExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimplePageControlExample-Prefix.pch"; sourceTree = "<group>"; };
+		CEA3B51D160D3DD100D7D534 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEA3B51F160D3DD100D7D534 /* SimplePageControlExample-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SimplePageControlExample-main.m"; sourceTree = "<group>"; };
+		CEA3B521160D3DD100D7D534 /* SimplePageControlExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimplePageControlExampleAppDelegate.h; sourceTree = "<group>"; };
+		CEA3B522160D3DD100D7D534 /* SimplePageControlExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplePageControlExampleAppDelegate.m; sourceTree = "<group>"; };
+		CEA3B525160D3DD100D7D534 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CEA3B527160D3DD100D7D534 /* SimplePageControlExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimplePageControlExampleViewController.h; sourceTree = "<group>"; };
+		CEA3B528160D3DD100D7D534 /* SimplePageControlExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplePageControlExampleViewController.m; sourceTree = "<group>"; };
+		CEA3B52B160D3DD100D7D534 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SimplePageControlExampleViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA3B50E160D3DD100D7D534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA3B515160D3DD100D7D534 /* UIKit.framework in Frameworks */,
+				CEA3B517160D3DD100D7D534 /* Foundation.framework in Frameworks */,
+				CEA3B519160D3DD100D7D534 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA3B502160D3DD000D7D534 = {
+			isa = PBXGroup;
+			children = (
+				8D2677031CAFEC2200843903 /* Default-568h@2x.png */,
+				CEA3B509160D3DD000D7D534 /* Classes */,
+				CEA3B50A160D3DD000D7D534 /* Other Sources */,
+				CEA3B50B160D3DD000D7D534 /* Resources */,
+				CEA3B50C160D3DD000D7D534 /* Frameworks */,
+				CEA3B512160D3DD100D7D534 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA3B509160D3DD000D7D534 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3B521160D3DD100D7D534 /* SimplePageControlExampleAppDelegate.h */,
+				CEA3B522160D3DD100D7D534 /* SimplePageControlExampleAppDelegate.m */,
+				CEA3B527160D3DD100D7D534 /* SimplePageControlExampleViewController.h */,
+				CEA3B528160D3DD100D7D534 /* SimplePageControlExampleViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CEA3B50A160D3DD000D7D534 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3B51B160D3DD100D7D534 /* SimplePageControlExample-Prefix.pch */,
+				CEA3B51F160D3DD100D7D534 /* SimplePageControlExample-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		CEA3B50B160D3DD000D7D534 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3B51A160D3DD100D7D534 /* SimplePageControlExample-Info.plist */,
+				CEA3B51C160D3DD100D7D534 /* InfoPlist.strings */,
+				CEA3B524160D3DD100D7D534 /* MainWindow.xib */,
+				CEA3B52A160D3DD100D7D534 /* SimplePageControlExampleViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CEA3B50C160D3DD000D7D534 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3B514160D3DD100D7D534 /* UIKit.framework */,
+				CEA3B516160D3DD100D7D534 /* Foundation.framework */,
+				CEA3B518160D3DD100D7D534 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEA3B512160D3DD100D7D534 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3B511160D3DD100D7D534 /* SimplePageControlExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA3B510160D3DD100D7D534 /* SimplePageControlExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA3B52F160D3DD100D7D534 /* Build configuration list for PBXNativeTarget "SimplePageControlExample" */;
+			buildPhases = (
+				CEA3B50D160D3DD100D7D534 /* Sources */,
+				CEA3B50E160D3DD100D7D534 /* Frameworks */,
+				CEA3B50F160D3DD100D7D534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplePageControlExample;
+			productName = SimplePageControlExample;
+			productReference = CEA3B511160D3DD100D7D534 /* SimplePageControlExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA3B504160D3DD000D7D534 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = CEA3B507160D3DD000D7D534 /* Build configuration list for PBXProject "SimplePageControlExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEA3B502160D3DD000D7D534;
+			productRefGroup = CEA3B512160D3DD100D7D534 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA3B510160D3DD100D7D534 /* SimplePageControlExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA3B50F160D3DD100D7D534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA3B51E160D3DD100D7D534 /* InfoPlist.strings in Resources */,
+				8D2677041CAFEC2200843903 /* Default-568h@2x.png in Resources */,
+				CEA3B526160D3DD100D7D534 /* MainWindow.xib in Resources */,
+				CEA3B52C160D3DD100D7D534 /* SimplePageControlExampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA3B50D160D3DD100D7D534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA3B520160D3DD100D7D534 /* SimplePageControlExample-main.m in Sources */,
+				CEA3B523160D3DD100D7D534 /* SimplePageControlExampleAppDelegate.m in Sources */,
+				CEA3B529160D3DD100D7D534 /* SimplePageControlExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEA3B51C160D3DD100D7D534 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA3B51D160D3DD100D7D534 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEA3B524160D3DD100D7D534 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA3B525160D3DD100D7D534 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CEA3B52A160D3DD100D7D534 /* SimplePageControlExampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA3B52B160D3DD100D7D534 /* en */,
+			);
+			name = SimplePageControlExampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA3B52D160D3DD100D7D534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEA3B52E160D3DD100D7D534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CEA3B530160D3DD100D7D534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplePageControlExample-Prefix.pch";
+				INFOPLIST_FILE = "SimplePageControlExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEA3B531160D3DD100D7D534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplePageControlExample-Prefix.pch";
+				INFOPLIST_FILE = "SimplePageControlExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA3B507160D3DD000D7D534 /* Build configuration list for PBXProject "SimplePageControlExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA3B52D160D3DD100D7D534 /* Debug */,
+				CEA3B52E160D3DD100D7D534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA3B52F160D3DD100D7D534 /* Build configuration list for PBXNativeTarget "SimplePageControlExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA3B530160D3DD100D7D534 /* Debug */,
+				CEA3B531160D3DD100D7D534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA3B504160D3DD000D7D534 /* Project object */;
+}

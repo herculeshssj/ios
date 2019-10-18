@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D2676EE1CAFE49A00843903 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2676ED1CAFE49A00843903 /* Default-568h@2x.png */; };
+		CE35640E160CFE8700F92543 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE35640D160CFE8700F92543 /* UIKit.framework */; };
+		CE356410160CFE8700F92543 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE35640F160CFE8700F92543 /* Foundation.framework */; };
+		CE356412160CFE8700F92543 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE356411160CFE8700F92543 /* CoreGraphics.framework */; };
+		CE356417160CFE8700F92543 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE356415160CFE8700F92543 /* InfoPlist.strings */; };
+		CE356419160CFE8700F92543 /* MapViewExample-main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE356418160CFE8700F92543 /* MapViewExample-main.m */; };
+		CE35641C160CFE8700F92543 /* MapViewExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE35641B160CFE8700F92543 /* MapViewExampleAppDelegate.m */; };
+		CE35641F160CFE8700F92543 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE35641D160CFE8700F92543 /* MainWindow.xib */; };
+		CE356422160CFE8700F92543 /* MapViewExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE356421160CFE8700F92543 /* MapViewExampleViewController.m */; };
+		CE356425160CFE8700F92543 /* MapViewExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE356423160CFE8700F92543 /* MapViewExampleViewController.xib */; };
+		CE35642C160CFEEB00F92543 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE35642B160CFEEB00F92543 /* CoreLocation.framework */; };
+		CE35642E160CFEF700F92543 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE35642D160CFEF700F92543 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D2676ED1CAFE49A00843903 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE35640A160CFE8700F92543 /* MapViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE35640D160CFE8700F92543 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE35640F160CFE8700F92543 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE356411160CFE8700F92543 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE356413160CFE8700F92543 /* MapViewExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapViewExample-Info.plist"; sourceTree = "<group>"; };
+		CE356414160CFE8700F92543 /* MapViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapViewExample-Prefix.pch"; sourceTree = "<group>"; };
+		CE356416160CFE8700F92543 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE356418160CFE8700F92543 /* MapViewExample-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MapViewExample-main.m"; sourceTree = "<group>"; };
+		CE35641A160CFE8700F92543 /* MapViewExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewExampleAppDelegate.h; sourceTree = "<group>"; };
+		CE35641B160CFE8700F92543 /* MapViewExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewExampleAppDelegate.m; sourceTree = "<group>"; };
+		CE35641E160CFE8700F92543 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CE356420160CFE8700F92543 /* MapViewExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewExampleViewController.h; sourceTree = "<group>"; };
+		CE356421160CFE8700F92543 /* MapViewExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewExampleViewController.m; sourceTree = "<group>"; };
+		CE356424160CFE8700F92543 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MapViewExampleViewController.xib; sourceTree = "<group>"; };
+		CE35642B160CFEEB00F92543 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CE35642D160CFEF700F92543 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE356407160CFE8700F92543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE35642E160CFEF700F92543 /* MapKit.framework in Frameworks */,
+				CE35642C160CFEEB00F92543 /* CoreLocation.framework in Frameworks */,
+				CE35640E160CFE8700F92543 /* UIKit.framework in Frameworks */,
+				CE356410160CFE8700F92543 /* Foundation.framework in Frameworks */,
+				CE356412160CFE8700F92543 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE3563FB160CFE8700F92543 = {
+			isa = PBXGroup;
+			children = (
+				8D2676ED1CAFE49A00843903 /* Default-568h@2x.png */,
+				CE356402160CFE8700F92543 /* Classes */,
+				CE356403160CFE8700F92543 /* Other Sources */,
+				CE356404160CFE8700F92543 /* Resources */,
+				CE356405160CFE8700F92543 /* Frameworks */,
+				CE35640B160CFE8700F92543 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE356402160CFE8700F92543 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE35641A160CFE8700F92543 /* MapViewExampleAppDelegate.h */,
+				CE35641B160CFE8700F92543 /* MapViewExampleAppDelegate.m */,
+				CE356420160CFE8700F92543 /* MapViewExampleViewController.h */,
+				CE356421160CFE8700F92543 /* MapViewExampleViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CE356403160CFE8700F92543 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CE356414160CFE8700F92543 /* MapViewExample-Prefix.pch */,
+				CE356418160CFE8700F92543 /* MapViewExample-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		CE356404160CFE8700F92543 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE356413160CFE8700F92543 /* MapViewExample-Info.plist */,
+				CE356415160CFE8700F92543 /* InfoPlist.strings */,
+				CE35641D160CFE8700F92543 /* MainWindow.xib */,
+				CE356423160CFE8700F92543 /* MapViewExampleViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CE356405160CFE8700F92543 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE35642D160CFEF700F92543 /* MapKit.framework */,
+				CE35642B160CFEEB00F92543 /* CoreLocation.framework */,
+				CE35640D160CFE8700F92543 /* UIKit.framework */,
+				CE35640F160CFE8700F92543 /* Foundation.framework */,
+				CE356411160CFE8700F92543 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE35640B160CFE8700F92543 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE35640A160CFE8700F92543 /* MapViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE356409160CFE8700F92543 /* MapViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE356428160CFE8700F92543 /* Build configuration list for PBXNativeTarget "MapViewExample" */;
+			buildPhases = (
+				CE356406160CFE8700F92543 /* Sources */,
+				CE356407160CFE8700F92543 /* Frameworks */,
+				CE356408160CFE8700F92543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapViewExample;
+			productName = MapViewExample;
+			productReference = CE35640A160CFE8700F92543 /* MapViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE3563FD160CFE8700F92543 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = CE356400160CFE8700F92543 /* Build configuration list for PBXProject "MapViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE3563FB160CFE8700F92543;
+			productRefGroup = CE35640B160CFE8700F92543 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE356409160CFE8700F92543 /* MapViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE356408160CFE8700F92543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE356417160CFE8700F92543 /* InfoPlist.strings in Resources */,
+				8D2676EE1CAFE49A00843903 /* Default-568h@2x.png in Resources */,
+				CE35641F160CFE8700F92543 /* MainWindow.xib in Resources */,
+				CE356425160CFE8700F92543 /* MapViewExampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE356406160CFE8700F92543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE356419160CFE8700F92543 /* MapViewExample-main.m in Sources */,
+				CE35641C160CFE8700F92543 /* MapViewExampleAppDelegate.m in Sources */,
+				CE356422160CFE8700F92543 /* MapViewExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE356415160CFE8700F92543 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE356416160CFE8700F92543 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE35641D160CFE8700F92543 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE35641E160CFE8700F92543 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CE356423160CFE8700F92543 /* MapViewExampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE356424160CFE8700F92543 /* en */,
+			);
+			name = MapViewExampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE356426160CFE8700F92543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE356427160CFE8700F92543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CE356429160CFE8700F92543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapViewExample-Prefix.pch";
+				INFOPLIST_FILE = "MapViewExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE35642A160CFE8700F92543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapViewExample-Prefix.pch";
+				INFOPLIST_FILE = "MapViewExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE356400160CFE8700F92543 /* Build configuration list for PBXProject "MapViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE356426160CFE8700F92543 /* Debug */,
+				CE356427160CFE8700F92543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE356428160CFE8700F92543 /* Build configuration list for PBXNativeTarget "MapViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE356429160CFE8700F92543 /* Debug */,
+				CE35642A160CFE8700F92543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE3563FD160CFE8700F92543 /* Project object */;
+}

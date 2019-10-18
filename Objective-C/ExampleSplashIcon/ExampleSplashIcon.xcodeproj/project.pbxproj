@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D2676DA1CAFDF5B00843903 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2676D91CAFDF5B00843903 /* Default-568h@2x.png */; };
+		CEA72D60166626C400BA604A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA72D5F166626C400BA604A /* UIKit.framework */; };
+		CEA72D62166626C400BA604A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA72D61166626C400BA604A /* Foundation.framework */; };
+		CEA72D64166626C400BA604A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA72D63166626C400BA604A /* CoreGraphics.framework */; };
+		CEA72D69166626C400BA604A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEA72D67166626C400BA604A /* InfoPlist.strings */; };
+		CEA72D6B166626C400BA604A /* ExampleSplashIcon-main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA72D6A166626C400BA604A /* ExampleSplashIcon-main.m */; };
+		CEA72D6E166626C400BA604A /* ExampleSplashIconAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA72D6D166626C400BA604A /* ExampleSplashIconAppDelegate.m */; };
+		CEA72D71166626C400BA604A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA72D6F166626C400BA604A /* MainWindow.xib */; };
+		CEA72D74166626C400BA604A /* ExampleSplashIconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA72D73166626C400BA604A /* ExampleSplashIconViewController.m */; };
+		CEA72D77166626C400BA604A /* ExampleSplashIconViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA72D75166626C400BA604A /* ExampleSplashIconViewController.xib */; };
+		CEA72D7F166627AA00BA604A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA72D7D166627AA00BA604A /* Default.png */; };
+		CEA72D80166627AA00BA604A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA72D7E166627AA00BA604A /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D2676D91CAFDF5B00843903 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEA72D5C166626C400BA604A /* ExampleSplashIcon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleSplashIcon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA72D5F166626C400BA604A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEA72D61166626C400BA604A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEA72D63166626C400BA604A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEA72D65166626C400BA604A /* ExampleSplashIcon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleSplashIcon-Info.plist"; sourceTree = "<group>"; };
+		CEA72D66166626C400BA604A /* ExampleSplashIcon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExampleSplashIcon-Prefix.pch"; sourceTree = "<group>"; };
+		CEA72D68166626C400BA604A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEA72D6A166626C400BA604A /* ExampleSplashIcon-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ExampleSplashIcon-main.m"; sourceTree = "<group>"; };
+		CEA72D6C166626C400BA604A /* ExampleSplashIconAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleSplashIconAppDelegate.h; sourceTree = "<group>"; };
+		CEA72D6D166626C400BA604A /* ExampleSplashIconAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleSplashIconAppDelegate.m; sourceTree = "<group>"; };
+		CEA72D70166626C400BA604A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CEA72D72166626C400BA604A /* ExampleSplashIconViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleSplashIconViewController.h; sourceTree = "<group>"; };
+		CEA72D73166626C400BA604A /* ExampleSplashIconViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleSplashIconViewController.m; sourceTree = "<group>"; };
+		CEA72D76166626C400BA604A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ExampleSplashIconViewController.xib; sourceTree = "<group>"; };
+		CEA72D7D166627AA00BA604A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "/Users/herculeshssj/gitrepository/ios/Objective-C/ExampleSplashIcon/Default.png"; sourceTree = "<absolute>"; };
+		CEA72D7E166627AA00BA604A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "/Users/herculeshssj/gitrepository/ios/Objective-C/ExampleSplashIcon/Default@2x.png"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA72D59166626C400BA604A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA72D60166626C400BA604A /* UIKit.framework in Frameworks */,
+				CEA72D62166626C400BA604A /* Foundation.framework in Frameworks */,
+				CEA72D64166626C400BA604A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA72D4D166626C400BA604A = {
+			isa = PBXGroup;
+			children = (
+				8D2676D91CAFDF5B00843903 /* Default-568h@2x.png */,
+				CEA72D7D166627AA00BA604A /* Default.png */,
+				CEA72D7E166627AA00BA604A /* Default@2x.png */,
+				CEA72D54166626C400BA604A /* Classes */,
+				CEA72D55166626C400BA604A /* Other Sources */,
+				CEA72D56166626C400BA604A /* Resources */,
+				CEA72D57166626C400BA604A /* Frameworks */,
+				CEA72D5D166626C400BA604A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA72D54166626C400BA604A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEA72D6C166626C400BA604A /* ExampleSplashIconAppDelegate.h */,
+				CEA72D6D166626C400BA604A /* ExampleSplashIconAppDelegate.m */,
+				CEA72D72166626C400BA604A /* ExampleSplashIconViewController.h */,
+				CEA72D73166626C400BA604A /* ExampleSplashIconViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CEA72D55166626C400BA604A /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CEA72D66166626C400BA604A /* ExampleSplashIcon-Prefix.pch */,
+				CEA72D6A166626C400BA604A /* ExampleSplashIcon-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		CEA72D56166626C400BA604A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEA72D65166626C400BA604A /* ExampleSplashIcon-Info.plist */,
+				CEA72D67166626C400BA604A /* InfoPlist.strings */,
+				CEA72D6F166626C400BA604A /* MainWindow.xib */,
+				CEA72D75166626C400BA604A /* ExampleSplashIconViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CEA72D57166626C400BA604A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEA72D5F166626C400BA604A /* UIKit.framework */,
+				CEA72D61166626C400BA604A /* Foundation.framework */,
+				CEA72D63166626C400BA604A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEA72D5D166626C400BA604A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA72D5C166626C400BA604A /* ExampleSplashIcon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA72D5B166626C400BA604A /* ExampleSplashIcon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA72D7A166626C400BA604A /* Build configuration list for PBXNativeTarget "ExampleSplashIcon" */;
+			buildPhases = (
+				CEA72D58166626C400BA604A /* Sources */,
+				CEA72D59166626C400BA604A /* Frameworks */,
+				CEA72D5A166626C400BA604A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleSplashIcon;
+			productName = ExampleSplashIcon;
+			productReference = CEA72D5C166626C400BA604A /* ExampleSplashIcon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA72D4F166626C400BA604A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = CEA72D52166626C400BA604A /* Build configuration list for PBXProject "ExampleSplashIcon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEA72D4D166626C400BA604A;
+			productRefGroup = CEA72D5D166626C400BA604A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA72D5B166626C400BA604A /* ExampleSplashIcon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA72D5A166626C400BA604A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA72D69166626C400BA604A /* InfoPlist.strings in Resources */,
+				CEA72D71166626C400BA604A /* MainWindow.xib in Resources */,
+				CEA72D77166626C400BA604A /* ExampleSplashIconViewController.xib in Resources */,
+				CEA72D7F166627AA00BA604A /* Default.png in Resources */,
+				CEA72D80166627AA00BA604A /* Default@2x.png in Resources */,
+				8D2676DA1CAFDF5B00843903 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA72D58166626C400BA604A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA72D6B166626C400BA604A /* ExampleSplashIcon-main.m in Sources */,
+				CEA72D6E166626C400BA604A /* ExampleSplashIconAppDelegate.m in Sources */,
+				CEA72D74166626C400BA604A /* ExampleSplashIconViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEA72D67166626C400BA604A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA72D68166626C400BA604A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEA72D6F166626C400BA604A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA72D70166626C400BA604A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CEA72D75166626C400BA604A /* ExampleSplashIconViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA72D76166626C400BA604A /* en */,
+			);
+			name = ExampleSplashIconViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA72D78166626C400BA604A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEA72D79166626C400BA604A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CEA72D7B166626C400BA604A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleSplashIcon-Prefix.pch";
+				INFOPLIST_FILE = "ExampleSplashIcon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEA72D7C166626C400BA604A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleSplashIcon-Prefix.pch";
+				INFOPLIST_FILE = "ExampleSplashIcon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA72D52166626C400BA604A /* Build configuration list for PBXProject "ExampleSplashIcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA72D78166626C400BA604A /* Debug */,
+				CEA72D79166626C400BA604A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA72D7A166626C400BA604A /* Build configuration list for PBXNativeTarget "ExampleSplashIcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA72D7B166626C400BA604A /* Debug */,
+				CEA72D7C166626C400BA604A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA72D4F166626C400BA604A /* Project object */;
+}

@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D2676F81CAFE9F500843903 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2676F71CAFE9F500843903 /* Default-568h@2x.png */; };
+		CE33260B165E434700485E5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE33260A165E434700485E5B /* UIKit.framework */; };
+		CE33260D165E434700485E5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE33260C165E434700485E5B /* Foundation.framework */; };
+		CE33260F165E434700485E5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE33260E165E434700485E5B /* CoreGraphics.framework */; };
+		CE332614165E434700485E5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE332612165E434700485E5B /* InfoPlist.strings */; };
+		CE332616165E434700485E5B /* UITabBarControllerExample-main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE332615165E434700485E5B /* UITabBarControllerExample-main.m */; };
+		CE332619165E434700485E5B /* UITabBarControllerExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE332618165E434700485E5B /* UITabBarControllerExampleAppDelegate.m */; };
+		CE33261C165E434700485E5B /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE33261A165E434700485E5B /* MainWindow_iPhone.xib */; };
+		CE33261F165E434700485E5B /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE33261D165E434700485E5B /* MainWindow_iPad.xib */; };
+		CE332622165E434700485E5B /* UITabBarControllerExampleAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CE332621165E434700485E5B /* UITabBarControllerExampleAppDelegate_iPhone.m */; };
+		CE332625165E434700485E5B /* UITabBarControllerExampleAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = CE332624165E434700485E5B /* UITabBarControllerExampleAppDelegate_iPad.m */; };
+		CE33262E165E440000485E5B /* FirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE33262C165E440000485E5B /* FirstView.m */; };
+		CE33262F165E440000485E5B /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE33262D165E440000485E5B /* FirstView.xib */; };
+		CE332633165E441A00485E5B /* SecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE332631165E441A00485E5B /* SecondView.m */; };
+		CE332634165E441A00485E5B /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE332632165E441A00485E5B /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D2676F71CAFE9F500843903 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE332607165E434700485E5B /* UITabBarControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITabBarControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE33260A165E434700485E5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE33260C165E434700485E5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE33260E165E434700485E5B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE332610165E434700485E5B /* UITabBarControllerExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITabBarControllerExample-Info.plist"; sourceTree = "<group>"; };
+		CE332611165E434700485E5B /* UITabBarControllerExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarControllerExample-Prefix.pch"; sourceTree = "<group>"; };
+		CE332613165E434700485E5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE332615165E434700485E5B /* UITabBarControllerExample-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBarControllerExample-main.m"; sourceTree = "<group>"; };
+		CE332617165E434700485E5B /* UITabBarControllerExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITabBarControllerExampleAppDelegate.h; sourceTree = "<group>"; };
+		CE332618165E434700485E5B /* UITabBarControllerExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITabBarControllerExampleAppDelegate.m; sourceTree = "<group>"; };
+		CE33261B165E434700485E5B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		CE33261E165E434700485E5B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		CE332620165E434700485E5B /* UITabBarControllerExampleAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITabBarControllerExampleAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		CE332621165E434700485E5B /* UITabBarControllerExampleAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITabBarControllerExampleAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		CE332623165E434700485E5B /* UITabBarControllerExampleAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITabBarControllerExampleAppDelegate_iPad.h; sourceTree = "<group>"; };
+		CE332624165E434700485E5B /* UITabBarControllerExampleAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITabBarControllerExampleAppDelegate_iPad.m; sourceTree = "<group>"; };
+		CE33262B165E43FF00485E5B /* FirstView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstView.h; sourceTree = "<group>"; };
+		CE33262C165E440000485E5B /* FirstView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstView.m; sourceTree = "<group>"; };
+		CE33262D165E440000485E5B /* FirstView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
+		CE332630165E441A00485E5B /* SecondView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondView.h; sourceTree = "<group>"; };
+		CE332631165E441A00485E5B /* SecondView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondView.m; sourceTree = "<group>"; };
+		CE332632165E441A00485E5B /* SecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE332604165E434700485E5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE33260B165E434700485E5B /* UIKit.framework in Frameworks */,
+				CE33260D165E434700485E5B /* Foundation.framework in Frameworks */,
+				CE33260F165E434700485E5B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE3325F6165E434600485E5B = {
+			isa = PBXGroup;
+			children = (
+				8D2676F71CAFE9F500843903 /* Default-568h@2x.png */,
+				CE3325FD165E434700485E5B /* iPhone */,
+				CE3325FE165E434700485E5B /* iPad */,
+				CE3325FF165E434700485E5B /* Classes */,
+				CE332600165E434700485E5B /* Other Sources */,
+				CE332601165E434700485E5B /* Resources */,
+				CE332602165E434700485E5B /* Frameworks */,
+				CE332608165E434700485E5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE3325FD165E434700485E5B /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				CE33261A165E434700485E5B /* MainWindow_iPhone.xib */,
+				CE332620165E434700485E5B /* UITabBarControllerExampleAppDelegate_iPhone.h */,
+				CE332621165E434700485E5B /* UITabBarControllerExampleAppDelegate_iPhone.m */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE3325FE165E434700485E5B /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				CE33261D165E434700485E5B /* MainWindow_iPad.xib */,
+				CE332623165E434700485E5B /* UITabBarControllerExampleAppDelegate_iPad.h */,
+				CE332624165E434700485E5B /* UITabBarControllerExampleAppDelegate_iPad.m */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE3325FF165E434700485E5B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE332617165E434700485E5B /* UITabBarControllerExampleAppDelegate.h */,
+				CE332618165E434700485E5B /* UITabBarControllerExampleAppDelegate.m */,
+				CE33262B165E43FF00485E5B /* FirstView.h */,
+				CE33262C165E440000485E5B /* FirstView.m */,
+				CE33262D165E440000485E5B /* FirstView.xib */,
+				CE332630165E441A00485E5B /* SecondView.h */,
+				CE332631165E441A00485E5B /* SecondView.m */,
+				CE332632165E441A00485E5B /* SecondView.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CE332600165E434700485E5B /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CE332611165E434700485E5B /* UITabBarControllerExample-Prefix.pch */,
+				CE332615165E434700485E5B /* UITabBarControllerExample-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		CE332601165E434700485E5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE332610165E434700485E5B /* UITabBarControllerExample-Info.plist */,
+				CE332612165E434700485E5B /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CE332602165E434700485E5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE33260A165E434700485E5B /* UIKit.framework */,
+				CE33260C165E434700485E5B /* Foundation.framework */,
+				CE33260E165E434700485E5B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE332608165E434700485E5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE332607165E434700485E5B /* UITabBarControllerExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE332606165E434700485E5B /* UITabBarControllerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE332628165E434700485E5B /* Build configuration list for PBXNativeTarget "UITabBarControllerExample" */;
+			buildPhases = (
+				CE332603165E434700485E5B /* Sources */,
+				CE332604165E434700485E5B /* Frameworks */,
+				CE332605165E434700485E5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITabBarControllerExample;
+			productName = UITabBarControllerExample;
+			productReference = CE332607165E434700485E5B /* UITabBarControllerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE3325F8165E434600485E5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = CE3325FB165E434600485E5B /* Build configuration list for PBXProject "UITabBarControllerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE3325F6165E434600485E5B;
+			productRefGroup = CE332608165E434700485E5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE332606165E434700485E5B /* UITabBarControllerExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE332605165E434700485E5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE332614165E434700485E5B /* InfoPlist.strings in Resources */,
+				CE33261C165E434700485E5B /* MainWindow_iPhone.xib in Resources */,
+				CE33261F165E434700485E5B /* MainWindow_iPad.xib in Resources */,
+				CE33262F165E440000485E5B /* FirstView.xib in Resources */,
+				CE332634165E441A00485E5B /* SecondView.xib in Resources */,
+				8D2676F81CAFE9F500843903 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE332603165E434700485E5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE332616165E434700485E5B /* UITabBarControllerExample-main.m in Sources */,
+				CE332619165E434700485E5B /* UITabBarControllerExampleAppDelegate.m in Sources */,
+				CE332622165E434700485E5B /* UITabBarControllerExampleAppDelegate_iPhone.m in Sources */,
+				CE332625165E434700485E5B /* UITabBarControllerExampleAppDelegate_iPad.m in Sources */,
+				CE33262E165E440000485E5B /* FirstView.m in Sources */,
+				CE332633165E441A00485E5B /* SecondView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE332612165E434700485E5B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE332613165E434700485E5B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE33261A165E434700485E5B /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE33261B165E434700485E5B /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		CE33261D165E434700485E5B /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE33261E165E434700485E5B /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE332626165E434700485E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE332627165E434700485E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE332629165E434700485E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITabBarControllerExample-Prefix.pch";
+				INFOPLIST_FILE = "UITabBarControllerExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE33262A165E434700485E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITabBarControllerExample-Prefix.pch";
+				INFOPLIST_FILE = "UITabBarControllerExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE3325FB165E434600485E5B /* Build configuration list for PBXProject "UITabBarControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE332626165E434700485E5B /* Debug */,
+				CE332627165E434700485E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE332628165E434700485E5B /* Build configuration list for PBXNativeTarget "UITabBarControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE332629165E434700485E5B /* Debug */,
+				CE33262A165E434700485E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE3325F8165E434600485E5B /* Project object */;
+}

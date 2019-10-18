@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D2150FC1CAE0EDC0014ED80 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2150FB1CAE0EDC0014ED80 /* Default-568h@2x.png */; };
+		CEFE24C116711A4100AC7F50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFE24C016711A4100AC7F50 /* UIKit.framework */; };
+		CEFE24C316711A4100AC7F50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFE24C216711A4100AC7F50 /* Foundation.framework */; };
+		CEFE24C516711A4100AC7F50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFE24C416711A4100AC7F50 /* CoreGraphics.framework */; };
+		CEFE24CA16711A4100AC7F50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEFE24C816711A4100AC7F50 /* InfoPlist.strings */; };
+		CEFE24CC16711A4100AC7F50 /* ExampleDetailView-main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFE24CB16711A4100AC7F50 /* ExampleDetailView-main.m */; };
+		CEFE24CF16711A4100AC7F50 /* ExampleDetailViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFE24CE16711A4100AC7F50 /* ExampleDetailViewAppDelegate.m */; };
+		CEFE24D216711A4200AC7F50 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFE24D016711A4200AC7F50 /* MainWindow.xib */; };
+		CEFE24D516711A4200AC7F50 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFE24D416711A4200AC7F50 /* RootViewController.m */; };
+		CEFE24D816711A4200AC7F50 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFE24D616711A4200AC7F50 /* RootViewController.xib */; };
+		CEFE24E116711BB200AC7F50 /* DetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFE24DF16711BB200AC7F50 /* DetailView.m */; };
+		CEFE24E216711BB200AC7F50 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFE24E016711BB200AC7F50 /* DetailView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D2150FB1CAE0EDC0014ED80 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEFE24BD16711A4100AC7F50 /* ExampleDetailView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleDetailView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFE24C016711A4100AC7F50 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEFE24C216711A4100AC7F50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEFE24C416711A4100AC7F50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEFE24C616711A4100AC7F50 /* ExampleDetailView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleDetailView-Info.plist"; sourceTree = "<group>"; };
+		CEFE24C716711A4100AC7F50 /* ExampleDetailView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExampleDetailView-Prefix.pch"; sourceTree = "<group>"; };
+		CEFE24C916711A4100AC7F50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEFE24CB16711A4100AC7F50 /* ExampleDetailView-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ExampleDetailView-main.m"; sourceTree = "<group>"; };
+		CEFE24CD16711A4100AC7F50 /* ExampleDetailViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleDetailViewAppDelegate.h; sourceTree = "<group>"; };
+		CEFE24CE16711A4100AC7F50 /* ExampleDetailViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleDetailViewAppDelegate.m; sourceTree = "<group>"; };
+		CEFE24D116711A4200AC7F50 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CEFE24D316711A4200AC7F50 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		CEFE24D416711A4200AC7F50 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		CEFE24D716711A4200AC7F50 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		CEFE24DE16711BB200AC7F50 /* DetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailView.h; sourceTree = "<group>"; };
+		CEFE24DF16711BB200AC7F50 /* DetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailView.m; sourceTree = "<group>"; };
+		CEFE24E016711BB200AC7F50 /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFE24BA16711A4100AC7F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFE24C116711A4100AC7F50 /* UIKit.framework in Frameworks */,
+				CEFE24C316711A4100AC7F50 /* Foundation.framework in Frameworks */,
+				CEFE24C516711A4100AC7F50 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEFE24AE16711A4100AC7F50 = {
+			isa = PBXGroup;
+			children = (
+				8D2150FB1CAE0EDC0014ED80 /* Default-568h@2x.png */,
+				CEFE24B516711A4100AC7F50 /* Classes */,
+				CEFE24B616711A4100AC7F50 /* Other Sources */,
+				CEFE24B716711A4100AC7F50 /* Resources */,
+				CEFE24B816711A4100AC7F50 /* Frameworks */,
+				CEFE24BE16711A4100AC7F50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFE24B516711A4100AC7F50 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEFE24CD16711A4100AC7F50 /* ExampleDetailViewAppDelegate.h */,
+				CEFE24CE16711A4100AC7F50 /* ExampleDetailViewAppDelegate.m */,
+				CEFE24D316711A4200AC7F50 /* RootViewController.h */,
+				CEFE24D416711A4200AC7F50 /* RootViewController.m */,
+				CEFE24DE16711BB200AC7F50 /* DetailView.h */,
+				CEFE24DF16711BB200AC7F50 /* DetailView.m */,
+				CEFE24E016711BB200AC7F50 /* DetailView.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CEFE24B616711A4100AC7F50 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CEFE24C716711A4100AC7F50 /* ExampleDetailView-Prefix.pch */,
+				CEFE24CB16711A4100AC7F50 /* ExampleDetailView-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		CEFE24B716711A4100AC7F50 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEFE24C616711A4100AC7F50 /* ExampleDetailView-Info.plist */,
+				CEFE24C816711A4100AC7F50 /* InfoPlist.strings */,
+				CEFE24D016711A4200AC7F50 /* MainWindow.xib */,
+				CEFE24D616711A4200AC7F50 /* RootViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CEFE24B816711A4100AC7F50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEFE24C016711A4100AC7F50 /* UIKit.framework */,
+				CEFE24C216711A4100AC7F50 /* Foundation.framework */,
+				CEFE24C416711A4100AC7F50 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEFE24BE16711A4100AC7F50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFE24BD16711A4100AC7F50 /* ExampleDetailView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFE24BC16711A4100AC7F50 /* ExampleDetailView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFE24DB16711A4200AC7F50 /* Build configuration list for PBXNativeTarget "ExampleDetailView" */;
+			buildPhases = (
+				CEFE24B916711A4100AC7F50 /* Sources */,
+				CEFE24BA16711A4100AC7F50 /* Frameworks */,
+				CEFE24BB16711A4100AC7F50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleDetailView;
+			productName = ExampleDetailView;
+			productReference = CEFE24BD16711A4100AC7F50 /* ExampleDetailView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFE24B016711A4100AC7F50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = CEFE24B316711A4100AC7F50 /* Build configuration list for PBXProject "ExampleDetailView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEFE24AE16711A4100AC7F50;
+			productRefGroup = CEFE24BE16711A4100AC7F50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFE24BC16711A4100AC7F50 /* ExampleDetailView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFE24BB16711A4100AC7F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFE24CA16711A4100AC7F50 /* InfoPlist.strings in Resources */,
+				CEFE24D216711A4200AC7F50 /* MainWindow.xib in Resources */,
+				CEFE24D816711A4200AC7F50 /* RootViewController.xib in Resources */,
+				8D2150FC1CAE0EDC0014ED80 /* Default-568h@2x.png in Resources */,
+				CEFE24E216711BB200AC7F50 /* DetailView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFE24B916711A4100AC7F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFE24CC16711A4100AC7F50 /* ExampleDetailView-main.m in Sources */,
+				CEFE24CF16711A4100AC7F50 /* ExampleDetailViewAppDelegate.m in Sources */,
+				CEFE24D516711A4200AC7F50 /* RootViewController.m in Sources */,
+				CEFE24E116711BB200AC7F50 /* DetailView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEFE24C816711A4100AC7F50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFE24C916711A4100AC7F50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEFE24D016711A4200AC7F50 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFE24D116711A4200AC7F50 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CEFE24D616711A4200AC7F50 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFE24D716711A4200AC7F50 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFE24D916711A4200AC7F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEFE24DA16711A4200AC7F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CEFE24DC16711A4200AC7F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleDetailView-Prefix.pch";
+				INFOPLIST_FILE = "ExampleDetailView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEFE24DD16711A4200AC7F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleDetailView-Prefix.pch";
+				INFOPLIST_FILE = "ExampleDetailView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFE24B316711A4100AC7F50 /* Build configuration list for PBXProject "ExampleDetailView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFE24D916711A4200AC7F50 /* Debug */,
+				CEFE24DA16711A4200AC7F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFE24DB16711A4200AC7F50 /* Build configuration list for PBXNativeTarget "ExampleDetailView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFE24DC16711A4200AC7F50 /* Debug */,
+				CEFE24DD16711A4200AC7F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEFE24B016711A4100AC7F50 /* Project object */;
+}

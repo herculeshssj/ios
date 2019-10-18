@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D2676CE1CAFDCB100843903 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2676CD1CAFDCB100843903 /* libsqlite3.tbd */; };
+		8D2676D01CAFDCC000843903 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2676CF1CAFDCC000843903 /* Default-568h@2x.png */; };
+		CE5960E216D517D800AE625D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5960E116D517D800AE625D /* UIKit.framework */; };
+		CE5960E416D517D800AE625D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5960E316D517D800AE625D /* Foundation.framework */; };
+		CE5960E616D517D800AE625D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5960E516D517D800AE625D /* CoreGraphics.framework */; };
+		CE5960EB16D517D800AE625D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE5960E916D517D800AE625D /* InfoPlist.strings */; };
+		CE5960ED16D517D800AE625D /* ExampleReadData-main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5960EC16D517D800AE625D /* ExampleReadData-main.m */; };
+		CE5960F016D517D800AE625D /* ExampleReadDataAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5960EF16D517D800AE625D /* ExampleReadDataAppDelegate.m */; };
+		CE5960F316D517D800AE625D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5960F116D517D800AE625D /* MainWindow.xib */; };
+		CE5960F616D517D800AE625D /* ExampleReadDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5960F516D517D800AE625D /* ExampleReadDataViewController.m */; };
+		CE5960F916D517D800AE625D /* ExampleReadDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5960F716D517D800AE625D /* ExampleReadDataViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D2676CD1CAFDCB100843903 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		8D2676CF1CAFDCC000843903 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE5960DE16D517D800AE625D /* ExampleReadData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleReadData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5960E116D517D800AE625D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE5960E316D517D800AE625D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE5960E516D517D800AE625D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE5960E716D517D800AE625D /* ExampleReadData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleReadData-Info.plist"; sourceTree = "<group>"; };
+		CE5960E816D517D800AE625D /* ExampleReadData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExampleReadData-Prefix.pch"; sourceTree = "<group>"; };
+		CE5960EA16D517D800AE625D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE5960EC16D517D800AE625D /* ExampleReadData-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ExampleReadData-main.m"; sourceTree = "<group>"; };
+		CE5960EE16D517D800AE625D /* ExampleReadDataAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleReadDataAppDelegate.h; sourceTree = "<group>"; };
+		CE5960EF16D517D800AE625D /* ExampleReadDataAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleReadDataAppDelegate.m; sourceTree = "<group>"; };
+		CE5960F216D517D800AE625D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CE5960F416D517D800AE625D /* ExampleReadDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleReadDataViewController.h; sourceTree = "<group>"; };
+		CE5960F516D517D800AE625D /* ExampleReadDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleReadDataViewController.m; sourceTree = "<group>"; };
+		CE5960F816D517D800AE625D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ExampleReadDataViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE5960DB16D517D800AE625D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2676CE1CAFDCB100843903 /* libsqlite3.tbd in Frameworks */,
+				CE5960E216D517D800AE625D /* UIKit.framework in Frameworks */,
+				CE5960E416D517D800AE625D /* Foundation.framework in Frameworks */,
+				CE5960E616D517D800AE625D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE5960CF16D517D700AE625D = {
+			isa = PBXGroup;
+			children = (
+				8D2676CF1CAFDCC000843903 /* Default-568h@2x.png */,
+				CE5960D616D517D800AE625D /* Classes */,
+				CE5960D716D517D800AE625D /* Other Sources */,
+				CE5960D816D517D800AE625D /* Resources */,
+				CE5960D916D517D800AE625D /* Frameworks */,
+				CE5960DF16D517D800AE625D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE5960D616D517D800AE625D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE5960EE16D517D800AE625D /* ExampleReadDataAppDelegate.h */,
+				CE5960EF16D517D800AE625D /* ExampleReadDataAppDelegate.m */,
+				CE5960F416D517D800AE625D /* ExampleReadDataViewController.h */,
+				CE5960F516D517D800AE625D /* ExampleReadDataViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CE5960D716D517D800AE625D /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CE5960E816D517D800AE625D /* ExampleReadData-Prefix.pch */,
+				CE5960EC16D517D800AE625D /* ExampleReadData-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		CE5960D816D517D800AE625D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE5960E716D517D800AE625D /* ExampleReadData-Info.plist */,
+				CE5960E916D517D800AE625D /* InfoPlist.strings */,
+				CE5960F116D517D800AE625D /* MainWindow.xib */,
+				CE5960F716D517D800AE625D /* ExampleReadDataViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CE5960D916D517D800AE625D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D2676CD1CAFDCB100843903 /* libsqlite3.tbd */,
+				CE5960E116D517D800AE625D /* UIKit.framework */,
+				CE5960E316D517D800AE625D /* Foundation.framework */,
+				CE5960E516D517D800AE625D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE5960DF16D517D800AE625D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE5960DE16D517D800AE625D /* ExampleReadData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE5960DD16D517D800AE625D /* ExampleReadData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5960FC16D517D800AE625D /* Build configuration list for PBXNativeTarget "ExampleReadData" */;
+			buildPhases = (
+				CE5960DA16D517D800AE625D /* Sources */,
+				CE5960DB16D517D800AE625D /* Frameworks */,
+				CE5960DC16D517D800AE625D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleReadData;
+			productName = ExampleReadData;
+			productReference = CE5960DE16D517D800AE625D /* ExampleReadData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE5960D116D517D700AE625D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = CE5960D416D517D700AE625D /* Build configuration list for PBXProject "ExampleReadData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE5960CF16D517D700AE625D;
+			productRefGroup = CE5960DF16D517D800AE625D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE5960DD16D517D800AE625D /* ExampleReadData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE5960DC16D517D800AE625D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5960EB16D517D800AE625D /* InfoPlist.strings in Resources */,
+				8D2676D01CAFDCC000843903 /* Default-568h@2x.png in Resources */,
+				CE5960F316D517D800AE625D /* MainWindow.xib in Resources */,
+				CE5960F916D517D800AE625D /* ExampleReadDataViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE5960DA16D517D800AE625D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5960ED16D517D800AE625D /* ExampleReadData-main.m in Sources */,
+				CE5960F016D517D800AE625D /* ExampleReadDataAppDelegate.m in Sources */,
+				CE5960F616D517D800AE625D /* ExampleReadDataViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE5960E916D517D800AE625D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE5960EA16D517D800AE625D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE5960F116D517D800AE625D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE5960F216D517D800AE625D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CE5960F716D517D800AE625D /* ExampleReadDataViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE5960F816D517D800AE625D /* en */,
+			);
+			name = ExampleReadDataViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE5960FA16D517D800AE625D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE5960FB16D517D800AE625D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CE5960FD16D517D800AE625D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleReadData-Prefix.pch";
+				INFOPLIST_FILE = "ExampleReadData-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE5960FE16D517D800AE625D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleReadData-Prefix.pch";
+				INFOPLIST_FILE = "ExampleReadData-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE5960D416D517D700AE625D /* Build configuration list for PBXProject "ExampleReadData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5960FA16D517D800AE625D /* Debug */,
+				CE5960FB16D517D800AE625D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE5960FC16D517D800AE625D /* Build configuration list for PBXNativeTarget "ExampleReadData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5960FD16D517D800AE625D /* Debug */,
+				CE5960FE16D517D800AE625D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE5960D116D517D700AE625D /* Project object */;
+}

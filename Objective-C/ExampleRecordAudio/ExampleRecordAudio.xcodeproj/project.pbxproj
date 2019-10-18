@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D2676D81CAFDE6500843903 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2676D71CAFDE6500843903 /* Default-568h@2x.png */; };
+		8D60D212197184860059ABDF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D60D211197184860059ABDF /* AVFoundation.framework */; };
+		CE2C486516EF5A9F00A7E55F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2C486416EF5A9F00A7E55F /* UIKit.framework */; };
+		CE2C486716EF5A9F00A7E55F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2C486616EF5A9F00A7E55F /* Foundation.framework */; };
+		CE2C486916EF5A9F00A7E55F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2C486816EF5A9F00A7E55F /* CoreGraphics.framework */; };
+		CE2C486E16EF5A9F00A7E55F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE2C486C16EF5A9F00A7E55F /* InfoPlist.strings */; };
+		CE2C487016EF5A9F00A7E55F /* ExampleRecordAudio-main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2C486F16EF5A9F00A7E55F /* ExampleRecordAudio-main.m */; };
+		CE2C487316EF5A9F00A7E55F /* ExampleRecordAudioAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2C487216EF5A9F00A7E55F /* ExampleRecordAudioAppDelegate.m */; };
+		CE2C487616EF5A9F00A7E55F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE2C487416EF5A9F00A7E55F /* MainWindow.xib */; };
+		CE2C487916EF5A9F00A7E55F /* ExampleRecordAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2C487816EF5A9F00A7E55F /* ExampleRecordAudioViewController.m */; };
+		CE2C487C16EF5A9F00A7E55F /* ExampleRecordAudioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE2C487A16EF5A9F00A7E55F /* ExampleRecordAudioViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D2676D71CAFDE6500843903 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8D60D211197184860059ABDF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CE2C486116EF5A9F00A7E55F /* ExampleRecordAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleRecordAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2C486416EF5A9F00A7E55F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE2C486616EF5A9F00A7E55F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE2C486816EF5A9F00A7E55F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE2C486A16EF5A9F00A7E55F /* ExampleRecordAudio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleRecordAudio-Info.plist"; sourceTree = "<group>"; };
+		CE2C486B16EF5A9F00A7E55F /* ExampleRecordAudio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExampleRecordAudio-Prefix.pch"; sourceTree = "<group>"; };
+		CE2C486D16EF5A9F00A7E55F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE2C486F16EF5A9F00A7E55F /* ExampleRecordAudio-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ExampleRecordAudio-main.m"; sourceTree = "<group>"; };
+		CE2C487116EF5A9F00A7E55F /* ExampleRecordAudioAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleRecordAudioAppDelegate.h; sourceTree = "<group>"; };
+		CE2C487216EF5A9F00A7E55F /* ExampleRecordAudioAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleRecordAudioAppDelegate.m; sourceTree = "<group>"; };
+		CE2C487516EF5A9F00A7E55F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CE2C487716EF5A9F00A7E55F /* ExampleRecordAudioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleRecordAudioViewController.h; sourceTree = "<group>"; };
+		CE2C487816EF5A9F00A7E55F /* ExampleRecordAudioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleRecordAudioViewController.m; sourceTree = "<group>"; };
+		CE2C487B16EF5A9F00A7E55F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ExampleRecordAudioViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE2C485E16EF5A9F00A7E55F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D60D212197184860059ABDF /* AVFoundation.framework in Frameworks */,
+				CE2C486516EF5A9F00A7E55F /* UIKit.framework in Frameworks */,
+				CE2C486716EF5A9F00A7E55F /* Foundation.framework in Frameworks */,
+				CE2C486916EF5A9F00A7E55F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE2C485216EF5A9F00A7E55F = {
+			isa = PBXGroup;
+			children = (
+				8D2676D71CAFDE6500843903 /* Default-568h@2x.png */,
+				CE2C485916EF5A9F00A7E55F /* Classes */,
+				CE2C485A16EF5A9F00A7E55F /* Other Sources */,
+				CE2C485B16EF5A9F00A7E55F /* Resources */,
+				CE2C485C16EF5A9F00A7E55F /* Frameworks */,
+				CE2C486216EF5A9F00A7E55F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE2C485916EF5A9F00A7E55F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE2C487116EF5A9F00A7E55F /* ExampleRecordAudioAppDelegate.h */,
+				CE2C487216EF5A9F00A7E55F /* ExampleRecordAudioAppDelegate.m */,
+				CE2C487716EF5A9F00A7E55F /* ExampleRecordAudioViewController.h */,
+				CE2C487816EF5A9F00A7E55F /* ExampleRecordAudioViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CE2C485A16EF5A9F00A7E55F /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CE2C486B16EF5A9F00A7E55F /* ExampleRecordAudio-Prefix.pch */,
+				CE2C486F16EF5A9F00A7E55F /* ExampleRecordAudio-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		CE2C485B16EF5A9F00A7E55F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE2C486A16EF5A9F00A7E55F /* ExampleRecordAudio-Info.plist */,
+				CE2C486C16EF5A9F00A7E55F /* InfoPlist.strings */,
+				CE2C487416EF5A9F00A7E55F /* MainWindow.xib */,
+				CE2C487A16EF5A9F00A7E55F /* ExampleRecordAudioViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CE2C485C16EF5A9F00A7E55F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D60D211197184860059ABDF /* AVFoundation.framework */,
+				CE2C486416EF5A9F00A7E55F /* UIKit.framework */,
+				CE2C486616EF5A9F00A7E55F /* Foundation.framework */,
+				CE2C486816EF5A9F00A7E55F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE2C486216EF5A9F00A7E55F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2C486116EF5A9F00A7E55F /* ExampleRecordAudio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE2C486016EF5A9F00A7E55F /* ExampleRecordAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2C487F16EF5A9F00A7E55F /* Build configuration list for PBXNativeTarget "ExampleRecordAudio" */;
+			buildPhases = (
+				CE2C485D16EF5A9F00A7E55F /* Sources */,
+				CE2C485E16EF5A9F00A7E55F /* Frameworks */,
+				CE2C485F16EF5A9F00A7E55F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleRecordAudio;
+			productName = ExampleRecordAudio;
+			productReference = CE2C486116EF5A9F00A7E55F /* ExampleRecordAudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE2C485416EF5A9F00A7E55F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = CE2C485716EF5A9F00A7E55F /* Build configuration list for PBXProject "ExampleRecordAudio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE2C485216EF5A9F00A7E55F;
+			productRefGroup = CE2C486216EF5A9F00A7E55F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE2C486016EF5A9F00A7E55F /* ExampleRecordAudio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE2C485F16EF5A9F00A7E55F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2C486E16EF5A9F00A7E55F /* InfoPlist.strings in Resources */,
+				8D2676D81CAFDE6500843903 /* Default-568h@2x.png in Resources */,
+				CE2C487616EF5A9F00A7E55F /* MainWindow.xib in Resources */,
+				CE2C487C16EF5A9F00A7E55F /* ExampleRecordAudioViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE2C485D16EF5A9F00A7E55F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2C487016EF5A9F00A7E55F /* ExampleRecordAudio-main.m in Sources */,
+				CE2C487316EF5A9F00A7E55F /* ExampleRecordAudioAppDelegate.m in Sources */,
+				CE2C487916EF5A9F00A7E55F /* ExampleRecordAudioViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE2C486C16EF5A9F00A7E55F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2C486D16EF5A9F00A7E55F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE2C487416EF5A9F00A7E55F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2C487516EF5A9F00A7E55F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CE2C487A16EF5A9F00A7E55F /* ExampleRecordAudioViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2C487B16EF5A9F00A7E55F /* en */,
+			);
+			name = ExampleRecordAudioViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE2C487D16EF5A9F00A7E55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE2C487E16EF5A9F00A7E55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CE2C488016EF5A9F00A7E55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleRecordAudio-Prefix.pch";
+				INFOPLIST_FILE = "ExampleRecordAudio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE2C488116EF5A9F00A7E55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleRecordAudio-Prefix.pch";
+				INFOPLIST_FILE = "ExampleRecordAudio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE2C485716EF5A9F00A7E55F /* Build configuration list for PBXProject "ExampleRecordAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2C487D16EF5A9F00A7E55F /* Debug */,
+				CE2C487E16EF5A9F00A7E55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2C487F16EF5A9F00A7E55F /* Build configuration list for PBXNativeTarget "ExampleRecordAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2C488016EF5A9F00A7E55F /* Debug */,
+				CE2C488116EF5A9F00A7E55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE2C485416EF5A9F00A7E55F /* Project object */;
+}

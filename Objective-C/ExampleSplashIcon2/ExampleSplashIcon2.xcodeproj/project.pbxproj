@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D2676DC1CAFE03000843903 /* MySplashScreen-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2676DB1CAFE03000843903 /* MySplashScreen-568h@2x.png */; };
+		CEA72D941666286600BA604A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA72D931666286600BA604A /* UIKit.framework */; };
+		CEA72D961666286600BA604A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA72D951666286600BA604A /* Foundation.framework */; };
+		CEA72D981666286600BA604A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA72D971666286600BA604A /* CoreGraphics.framework */; };
+		CEA72D9D1666286600BA604A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEA72D9B1666286600BA604A /* InfoPlist.strings */; };
+		CEA72D9F1666286600BA604A /* ExampleSplashIcon2-main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA72D9E1666286600BA604A /* ExampleSplashIcon2-main.m */; };
+		CEA72DA21666286600BA604A /* ExampleSplashIcon2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA72DA11666286600BA604A /* ExampleSplashIcon2AppDelegate.m */; };
+		CEA72DA51666286600BA604A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA72DA31666286600BA604A /* MainWindow.xib */; };
+		CEA72DA81666286600BA604A /* ExampleSplashIcon2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA72DA71666286600BA604A /* ExampleSplashIcon2ViewController.m */; };
+		CEA72DAB1666286600BA604A /* ExampleSplashIcon2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA72DA91666286600BA604A /* ExampleSplashIcon2ViewController.xib */; };
+		CEA72DB31666288C00BA604A /* MySplashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA72DB11666288C00BA604A /* MySplashScreen.png */; };
+		CEA72DB41666288C00BA604A /* MySplashScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA72DB21666288C00BA604A /* MySplashScreen@2x.png */; };
+		CEA72DB7166629A500BA604A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA72DB5166629A500BA604A /* Icon.png */; };
+		CEA72DB8166629A500BA604A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA72DB6166629A500BA604A /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D2676DB1CAFE03000843903 /* MySplashScreen-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MySplashScreen-568h@2x.png"; sourceTree = "<group>"; };
+		CEA72D901666286600BA604A /* ExampleSplashIcon2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleSplashIcon2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA72D931666286600BA604A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEA72D951666286600BA604A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEA72D971666286600BA604A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEA72D991666286600BA604A /* ExampleSplashIcon2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleSplashIcon2-Info.plist"; sourceTree = "<group>"; };
+		CEA72D9A1666286600BA604A /* ExampleSplashIcon2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExampleSplashIcon2-Prefix.pch"; sourceTree = "<group>"; };
+		CEA72D9C1666286600BA604A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEA72D9E1666286600BA604A /* ExampleSplashIcon2-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ExampleSplashIcon2-main.m"; sourceTree = "<group>"; };
+		CEA72DA01666286600BA604A /* ExampleSplashIcon2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleSplashIcon2AppDelegate.h; sourceTree = "<group>"; };
+		CEA72DA11666286600BA604A /* ExampleSplashIcon2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleSplashIcon2AppDelegate.m; sourceTree = "<group>"; };
+		CEA72DA41666286600BA604A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CEA72DA61666286600BA604A /* ExampleSplashIcon2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleSplashIcon2ViewController.h; sourceTree = "<group>"; };
+		CEA72DA71666286600BA604A /* ExampleSplashIcon2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleSplashIcon2ViewController.m; sourceTree = "<group>"; };
+		CEA72DAA1666286600BA604A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ExampleSplashIcon2ViewController.xib; sourceTree = "<group>"; };
+		CEA72DB11666288C00BA604A /* MySplashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MySplashScreen.png; path = "/Users/herculeshssj/gitrepository/ios/Objective-C/ExampleSplashIcon2/MySplashScreen.png"; sourceTree = "<absolute>"; };
+		CEA72DB21666288C00BA604A /* MySplashScreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MySplashScreen@2x.png"; path = "/Users/herculeshssj/gitrepository/ios/Objective-C/ExampleSplashIcon2/MySplashScreen@2x.png"; sourceTree = "<absolute>"; };
+		CEA72DB5166629A500BA604A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = "/Users/herculeshssj/gitrepository/ios/Objective-C/ExampleSplashIcon2/Icon.png"; sourceTree = "<absolute>"; };
+		CEA72DB6166629A500BA604A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "/Users/herculeshssj/gitrepository/ios/Objective-C/ExampleSplashIcon2/Icon@2x.png"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA72D8D1666286600BA604A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA72D941666286600BA604A /* UIKit.framework in Frameworks */,
+				CEA72D961666286600BA604A /* Foundation.framework in Frameworks */,
+				CEA72D981666286600BA604A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA72D811666286600BA604A = {
+			isa = PBXGroup;
+			children = (
+				8D2676DB1CAFE03000843903 /* MySplashScreen-568h@2x.png */,
+				CEA72DB5166629A500BA604A /* Icon.png */,
+				CEA72DB6166629A500BA604A /* Icon@2x.png */,
+				CEA72DB11666288C00BA604A /* MySplashScreen.png */,
+				CEA72DB21666288C00BA604A /* MySplashScreen@2x.png */,
+				CEA72D881666286600BA604A /* Classes */,
+				CEA72D891666286600BA604A /* Other Sources */,
+				CEA72D8A1666286600BA604A /* Resources */,
+				CEA72D8B1666286600BA604A /* Frameworks */,
+				CEA72D911666286600BA604A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA72D881666286600BA604A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEA72DA01666286600BA604A /* ExampleSplashIcon2AppDelegate.h */,
+				CEA72DA11666286600BA604A /* ExampleSplashIcon2AppDelegate.m */,
+				CEA72DA61666286600BA604A /* ExampleSplashIcon2ViewController.h */,
+				CEA72DA71666286600BA604A /* ExampleSplashIcon2ViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CEA72D891666286600BA604A /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CEA72D9A1666286600BA604A /* ExampleSplashIcon2-Prefix.pch */,
+				CEA72D9E1666286600BA604A /* ExampleSplashIcon2-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		CEA72D8A1666286600BA604A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEA72D991666286600BA604A /* ExampleSplashIcon2-Info.plist */,
+				CEA72D9B1666286600BA604A /* InfoPlist.strings */,
+				CEA72DA31666286600BA604A /* MainWindow.xib */,
+				CEA72DA91666286600BA604A /* ExampleSplashIcon2ViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CEA72D8B1666286600BA604A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEA72D931666286600BA604A /* UIKit.framework */,
+				CEA72D951666286600BA604A /* Foundation.framework */,
+				CEA72D971666286600BA604A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEA72D911666286600BA604A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA72D901666286600BA604A /* ExampleSplashIcon2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA72D8F1666286600BA604A /* ExampleSplashIcon2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA72DAE1666286600BA604A /* Build configuration list for PBXNativeTarget "ExampleSplashIcon2" */;
+			buildPhases = (
+				CEA72D8C1666286600BA604A /* Sources */,
+				CEA72D8D1666286600BA604A /* Frameworks */,
+				CEA72D8E1666286600BA604A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleSplashIcon2;
+			productName = ExampleSplashIcon2;
+			productReference = CEA72D901666286600BA604A /* ExampleSplashIcon2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA72D831666286600BA604A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = CEA72D861666286600BA604A /* Build configuration list for PBXProject "ExampleSplashIcon2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEA72D811666286600BA604A;
+			productRefGroup = CEA72D911666286600BA604A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA72D8F1666286600BA604A /* ExampleSplashIcon2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA72D8E1666286600BA604A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2676DC1CAFE03000843903 /* MySplashScreen-568h@2x.png in Resources */,
+				CEA72D9D1666286600BA604A /* InfoPlist.strings in Resources */,
+				CEA72DA51666286600BA604A /* MainWindow.xib in Resources */,
+				CEA72DAB1666286600BA604A /* ExampleSplashIcon2ViewController.xib in Resources */,
+				CEA72DB31666288C00BA604A /* MySplashScreen.png in Resources */,
+				CEA72DB41666288C00BA604A /* MySplashScreen@2x.png in Resources */,
+				CEA72DB7166629A500BA604A /* Icon.png in Resources */,
+				CEA72DB8166629A500BA604A /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA72D8C1666286600BA604A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA72D9F1666286600BA604A /* ExampleSplashIcon2-main.m in Sources */,
+				CEA72DA21666286600BA604A /* ExampleSplashIcon2AppDelegate.m in Sources */,
+				CEA72DA81666286600BA604A /* ExampleSplashIcon2ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEA72D9B1666286600BA604A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA72D9C1666286600BA604A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEA72DA31666286600BA604A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA72DA41666286600BA604A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CEA72DA91666286600BA604A /* ExampleSplashIcon2ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA72DAA1666286600BA604A /* en */,
+			);
+			name = ExampleSplashIcon2ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA72DAC1666286600BA604A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEA72DAD1666286600BA604A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CEA72DAF1666286600BA604A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleSplashIcon2-Prefix.pch";
+				INFOPLIST_FILE = "ExampleSplashIcon2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEA72DB01666286600BA604A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleSplashIcon2-Prefix.pch";
+				INFOPLIST_FILE = "ExampleSplashIcon2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA72D861666286600BA604A /* Build configuration list for PBXProject "ExampleSplashIcon2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA72DAC1666286600BA604A /* Debug */,
+				CEA72DAD1666286600BA604A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA72DAE1666286600BA604A /* Build configuration list for PBXNativeTarget "ExampleSplashIcon2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA72DAF1666286600BA604A /* Debug */,
+				CEA72DB01666286600BA604A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA72D831666286600BA604A /* Project object */;
+}

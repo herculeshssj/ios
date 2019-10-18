@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D2676FC1CAFEAFC00843903 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2676FB1CAFEAFC00843903 /* Default-568h@2x.png */; };
+		CEA202CC15B7391E00FED757 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA202CB15B7391E00FED757 /* UIKit.framework */; };
+		CEA202CE15B7391E00FED757 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA202CD15B7391E00FED757 /* Foundation.framework */; };
+		CEA202D015B7391E00FED757 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA202CF15B7391E00FED757 /* CoreGraphics.framework */; };
+		CEA202D515B7391E00FED757 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEA202D315B7391E00FED757 /* InfoPlist.strings */; };
+		CEA202D715B7391E00FED757 /* TextBoxExample-main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA202D615B7391E00FED757 /* TextBoxExample-main.m */; };
+		CEA202DA15B7391E00FED757 /* TextBoxExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA202D915B7391E00FED757 /* TextBoxExampleAppDelegate.m */; };
+		CEA202DD15B7391E00FED757 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA202DB15B7391E00FED757 /* MainWindow.xib */; };
+		CEA202E015B7391E00FED757 /* TextBoxExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA202DF15B7391E00FED757 /* TextBoxExampleViewController.m */; };
+		CEA202E315B7391E00FED757 /* TextBoxExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA202E115B7391E00FED757 /* TextBoxExampleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D2676FB1CAFEAFC00843903 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEA202C815B7391E00FED757 /* TextBoxExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextBoxExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA202CB15B7391E00FED757 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEA202CD15B7391E00FED757 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEA202CF15B7391E00FED757 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEA202D115B7391E00FED757 /* TextBoxExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextBoxExample-Info.plist"; sourceTree = "<group>"; };
+		CEA202D215B7391E00FED757 /* TextBoxExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextBoxExample-Prefix.pch"; sourceTree = "<group>"; };
+		CEA202D415B7391E00FED757 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEA202D615B7391E00FED757 /* TextBoxExample-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TextBoxExample-main.m"; sourceTree = "<group>"; };
+		CEA202D815B7391E00FED757 /* TextBoxExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextBoxExampleAppDelegate.h; sourceTree = "<group>"; };
+		CEA202D915B7391E00FED757 /* TextBoxExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextBoxExampleAppDelegate.m; sourceTree = "<group>"; };
+		CEA202DC15B7391E00FED757 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CEA202DE15B7391E00FED757 /* TextBoxExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextBoxExampleViewController.h; sourceTree = "<group>"; };
+		CEA202DF15B7391E00FED757 /* TextBoxExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextBoxExampleViewController.m; sourceTree = "<group>"; };
+		CEA202E215B7391E00FED757 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TextBoxExampleViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA202C515B7391E00FED757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA202CC15B7391E00FED757 /* UIKit.framework in Frameworks */,
+				CEA202CE15B7391E00FED757 /* Foundation.framework in Frameworks */,
+				CEA202D015B7391E00FED757 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA202B915B7391E00FED757 = {
+			isa = PBXGroup;
+			children = (
+				8D2676FB1CAFEAFC00843903 /* Default-568h@2x.png */,
+				CEA202C015B7391E00FED757 /* Classes */,
+				CEA202C115B7391E00FED757 /* Other Sources */,
+				CEA202C215B7391E00FED757 /* Resources */,
+				CEA202C315B7391E00FED757 /* Frameworks */,
+				CEA202C915B7391E00FED757 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA202C015B7391E00FED757 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEA202D815B7391E00FED757 /* TextBoxExampleAppDelegate.h */,
+				CEA202D915B7391E00FED757 /* TextBoxExampleAppDelegate.m */,
+				CEA202DE15B7391E00FED757 /* TextBoxExampleViewController.h */,
+				CEA202DF15B7391E00FED757 /* TextBoxExampleViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CEA202C115B7391E00FED757 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CEA202D215B7391E00FED757 /* TextBoxExample-Prefix.pch */,
+				CEA202D615B7391E00FED757 /* TextBoxExample-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		CEA202C215B7391E00FED757 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEA202D115B7391E00FED757 /* TextBoxExample-Info.plist */,
+				CEA202D315B7391E00FED757 /* InfoPlist.strings */,
+				CEA202DB15B7391E00FED757 /* MainWindow.xib */,
+				CEA202E115B7391E00FED757 /* TextBoxExampleViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CEA202C315B7391E00FED757 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEA202CB15B7391E00FED757 /* UIKit.framework */,
+				CEA202CD15B7391E00FED757 /* Foundation.framework */,
+				CEA202CF15B7391E00FED757 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEA202C915B7391E00FED757 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA202C815B7391E00FED757 /* TextBoxExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA202C715B7391E00FED757 /* TextBoxExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA202E615B7391E00FED757 /* Build configuration list for PBXNativeTarget "TextBoxExample" */;
+			buildPhases = (
+				CEA202C415B7391E00FED757 /* Sources */,
+				CEA202C515B7391E00FED757 /* Frameworks */,
+				CEA202C615B7391E00FED757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextBoxExample;
+			productName = TextBoxExample;
+			productReference = CEA202C815B7391E00FED757 /* TextBoxExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA202BB15B7391E00FED757 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = CEA202BE15B7391E00FED757 /* Build configuration list for PBXProject "TextBoxExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEA202B915B7391E00FED757;
+			productRefGroup = CEA202C915B7391E00FED757 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA202C715B7391E00FED757 /* TextBoxExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA202C615B7391E00FED757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA202D515B7391E00FED757 /* InfoPlist.strings in Resources */,
+				8D2676FC1CAFEAFC00843903 /* Default-568h@2x.png in Resources */,
+				CEA202DD15B7391E00FED757 /* MainWindow.xib in Resources */,
+				CEA202E315B7391E00FED757 /* TextBoxExampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA202C415B7391E00FED757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA202D715B7391E00FED757 /* TextBoxExample-main.m in Sources */,
+				CEA202DA15B7391E00FED757 /* TextBoxExampleAppDelegate.m in Sources */,
+				CEA202E015B7391E00FED757 /* TextBoxExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEA202D315B7391E00FED757 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA202D415B7391E00FED757 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEA202DB15B7391E00FED757 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA202DC15B7391E00FED757 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CEA202E115B7391E00FED757 /* TextBoxExampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA202E215B7391E00FED757 /* en */,
+			);
+			name = TextBoxExampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA202E415B7391E00FED757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEA202E515B7391E00FED757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CEA202E715B7391E00FED757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextBoxExample-Prefix.pch";
+				INFOPLIST_FILE = "TextBoxExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEA202E815B7391E00FED757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextBoxExample-Prefix.pch";
+				INFOPLIST_FILE = "TextBoxExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA202BE15B7391E00FED757 /* Build configuration list for PBXProject "TextBoxExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA202E415B7391E00FED757 /* Debug */,
+				CEA202E515B7391E00FED757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA202E615B7391E00FED757 /* Build configuration list for PBXNativeTarget "TextBoxExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA202E715B7391E00FED757 /* Debug */,
+				CEA202E815B7391E00FED757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA202BB15B7391E00FED757 /* Project object */;
+}

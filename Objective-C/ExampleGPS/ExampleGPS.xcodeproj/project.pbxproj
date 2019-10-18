@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D60D216197194D10059ABDF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D60D215197194D10059ABDF /* CoreLocation.framework */; };
+		8DB71E9C1CAF7136006F0130 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DB71E9B1CAF7136006F0130 /* Default-568h@2x.png */; };
+		CEAD776717EDD3640063540C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD776617EDD3640063540C /* UIKit.framework */; };
+		CEAD776917EDD3640063540C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD776817EDD3640063540C /* Foundation.framework */; };
+		CEAD776B17EDD3640063540C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD776A17EDD3640063540C /* CoreGraphics.framework */; };
+		CEAD777017EDD3640063540C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEAD776E17EDD3640063540C /* InfoPlist.strings */; };
+		CEAD777217EDD3650063540C /* ExampleGPS-main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAD777117EDD3650063540C /* ExampleGPS-main.m */; };
+		CEAD777517EDD3650063540C /* ExampleGPSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAD777417EDD3650063540C /* ExampleGPSAppDelegate.m */; };
+		CEAD777817EDD3650063540C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEAD777617EDD3650063540C /* MainWindow.xib */; };
+		CEAD777B17EDD3650063540C /* ExampleGPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAD777A17EDD3650063540C /* ExampleGPSViewController.m */; };
+		CEAD777E17EDD3650063540C /* ExampleGPSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEAD777C17EDD3650063540C /* ExampleGPSViewController.xib */; };
+		CEAD778617EDD3650063540C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD776617EDD3640063540C /* UIKit.framework */; };
+		CEAD778717EDD3650063540C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD776817EDD3640063540C /* Foundation.framework */; };
+		CEAD778817EDD3650063540C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAD776A17EDD3640063540C /* CoreGraphics.framework */; };
+		CEAD778C17EDD3650063540C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEAD778B17EDD3650063540C /* InfoPlist.strings */; };
+		CEAD778E17EDD3650063540C /* ExampleGPSTests.h in Resources */ = {isa = PBXBuildFile; fileRef = CEAD778D17EDD3650063540C /* ExampleGPSTests.h */; };
+		CEAD779017EDD3650063540C /* ExampleGPSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAD778F17EDD3650063540C /* ExampleGPSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D60D215197194D10059ABDF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8DB71E9B1CAF7136006F0130 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEAD776317EDD3640063540C /* ExampleGPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleGPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAD776617EDD3640063540C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEAD776817EDD3640063540C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEAD776A17EDD3640063540C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEAD776C17EDD3640063540C /* ExampleGPS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleGPS-Info.plist"; sourceTree = "<group>"; };
+		CEAD776D17EDD3640063540C /* ExampleGPS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExampleGPS-Prefix.pch"; sourceTree = "<group>"; };
+		CEAD776F17EDD3640063540C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEAD777117EDD3650063540C /* ExampleGPS-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ExampleGPS-main.m"; sourceTree = "<group>"; };
+		CEAD777317EDD3650063540C /* ExampleGPSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleGPSAppDelegate.h; sourceTree = "<group>"; };
+		CEAD777417EDD3650063540C /* ExampleGPSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleGPSAppDelegate.m; sourceTree = "<group>"; };
+		CEAD777717EDD3650063540C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CEAD777917EDD3650063540C /* ExampleGPSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleGPSViewController.h; sourceTree = "<group>"; };
+		CEAD777A17EDD3650063540C /* ExampleGPSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleGPSViewController.m; sourceTree = "<group>"; };
+		CEAD777D17EDD3650063540C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ExampleGPSViewController.xib; sourceTree = "<group>"; };
+		CEAD778517EDD3650063540C /* ExampleGPSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleGPSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAD778917EDD3650063540C /* ExampleGPSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleGPSTests-Info.plist"; sourceTree = "<group>"; };
+		CEAD778A17EDD3650063540C /* ExampleGPSTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExampleGPSTests-Prefix.pch"; sourceTree = "<group>"; };
+		CEAD778B17EDD3650063540C /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = en.lproj/ExampleGPSTests/InfoPlist.strings; sourceTree = "<group>"; };
+		CEAD778D17EDD3650063540C /* ExampleGPSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleGPSTests.h; sourceTree = "<group>"; };
+		CEAD778F17EDD3650063540C /* ExampleGPSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleGPSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEAD776017EDD3640063540C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D60D216197194D10059ABDF /* CoreLocation.framework in Frameworks */,
+				CEAD776717EDD3640063540C /* UIKit.framework in Frameworks */,
+				CEAD776917EDD3640063540C /* Foundation.framework in Frameworks */,
+				CEAD776B17EDD3640063540C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAD778117EDD3650063540C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAD778617EDD3650063540C /* UIKit.framework in Frameworks */,
+				CEAD778717EDD3650063540C /* Foundation.framework in Frameworks */,
+				CEAD778817EDD3650063540C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEAD775417EDD3640063540C = {
+			isa = PBXGroup;
+			children = (
+				8DB71E9B1CAF7136006F0130 /* Default-568h@2x.png */,
+				CEAD775B17EDD3640063540C /* Classes */,
+				CEAD775C17EDD3640063540C /* Other Sources */,
+				CEAD775D17EDD3640063540C /* Resources */,
+				CEAD775E17EDD3640063540C /* Frameworks */,
+				CEAD776417EDD3640063540C /* Products */,
+				CEAD777F17EDD3650063540C /* Tests */,
+			);
+			sourceTree = "<group>";
+		};
+		CEAD775B17EDD3640063540C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEAD777317EDD3650063540C /* ExampleGPSAppDelegate.h */,
+				CEAD777417EDD3650063540C /* ExampleGPSAppDelegate.m */,
+				CEAD777917EDD3650063540C /* ExampleGPSViewController.h */,
+				CEAD777A17EDD3650063540C /* ExampleGPSViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CEAD775C17EDD3640063540C /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CEAD776D17EDD3640063540C /* ExampleGPS-Prefix.pch */,
+				CEAD777117EDD3650063540C /* ExampleGPS-main.m */,
+				CEAD778A17EDD3650063540C /* ExampleGPSTests-Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		CEAD775D17EDD3640063540C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEAD776C17EDD3640063540C /* ExampleGPS-Info.plist */,
+				CEAD776E17EDD3640063540C /* InfoPlist.strings */,
+				CEAD777617EDD3650063540C /* MainWindow.xib */,
+				CEAD777C17EDD3650063540C /* ExampleGPSViewController.xib */,
+				CEAD778917EDD3650063540C /* ExampleGPSTests-Info.plist */,
+				CEAD778B17EDD3650063540C /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CEAD775E17EDD3640063540C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D60D215197194D10059ABDF /* CoreLocation.framework */,
+				CEAD776617EDD3640063540C /* UIKit.framework */,
+				CEAD776817EDD3640063540C /* Foundation.framework */,
+				CEAD776A17EDD3640063540C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEAD776417EDD3640063540C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEAD776317EDD3640063540C /* ExampleGPS.app */,
+				CEAD778517EDD3650063540C /* ExampleGPSTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEAD777F17EDD3650063540C /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CEAD778D17EDD3650063540C /* ExampleGPSTests.h */,
+				CEAD778F17EDD3650063540C /* ExampleGPSTests.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEAD776217EDD3640063540C /* ExampleGPS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAD779517EDD3650063540C /* Build configuration list for PBXNativeTarget "ExampleGPS" */;
+			buildPhases = (
+				CEAD775F17EDD3640063540C /* Sources */,
+				CEAD776017EDD3640063540C /* Frameworks */,
+				CEAD776117EDD3640063540C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleGPS;
+			productName = ExampleGPS;
+			productReference = CEAD776317EDD3640063540C /* ExampleGPS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEAD778417EDD3650063540C /* ExampleGPSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAD779817EDD3650063540C /* Build configuration list for PBXNativeTarget "ExampleGPSTests" */;
+			buildPhases = (
+				CEAD778017EDD3650063540C /* Sources */,
+				CEAD778117EDD3650063540C /* Frameworks */,
+				CEAD778217EDD3650063540C /* Resources */,
+				CEAD778317EDD3650063540C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleGPSTests;
+			productName = ExampleGPSTests;
+			productReference = CEAD778517EDD3650063540C /* ExampleGPSTests.octest */;
+			productType = "com.apple.product-type.bundle.ocunit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEAD775617EDD3640063540C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = CEAD775917EDD3640063540C /* Build configuration list for PBXProject "ExampleGPS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEAD775417EDD3640063540C;
+			productRefGroup = CEAD776417EDD3640063540C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEAD776217EDD3640063540C /* ExampleGPS */,
+				CEAD778417EDD3650063540C /* ExampleGPSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEAD776117EDD3640063540C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAD777017EDD3640063540C /* InfoPlist.strings in Resources */,
+				8DB71E9C1CAF7136006F0130 /* Default-568h@2x.png in Resources */,
+				CEAD777817EDD3650063540C /* MainWindow.xib in Resources */,
+				CEAD777E17EDD3650063540C /* ExampleGPSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAD778217EDD3650063540C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAD778C17EDD3650063540C /* InfoPlist.strings in Resources */,
+				CEAD778E17EDD3650063540C /* ExampleGPSTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEAD778317EDD3650063540C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEAD775F17EDD3640063540C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAD777217EDD3650063540C /* ExampleGPS-main.m in Sources */,
+				CEAD777517EDD3650063540C /* ExampleGPSAppDelegate.m in Sources */,
+				CEAD777B17EDD3650063540C /* ExampleGPSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAD778017EDD3650063540C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAD779017EDD3650063540C /* ExampleGPSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEAD776E17EDD3640063540C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEAD776F17EDD3640063540C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEAD777617EDD3650063540C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEAD777717EDD3650063540C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CEAD777C17EDD3650063540C /* ExampleGPSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEAD777D17EDD3650063540C /* en */,
+			);
+			name = ExampleGPSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEAD779117EDD3650063540C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEAD779217EDD3650063540C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CEAD779317EDD3650063540C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		CEAD779417EDD3650063540C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		CEAD779617EDD3650063540C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleGPS-Prefix.pch";
+				INFOPLIST_FILE = "ExampleGPS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "VideoClass.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEAD779717EDD3650063540C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleGPS-Prefix.pch";
+				INFOPLIST_FILE = "ExampleGPS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "VideoClass.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEAD779917EDD3650063540C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleGPSTests-Prefix.pch";
+				INFOPLIST_FILE = "ExampleGPSTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VideoClass.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CEAD779A17EDD3650063540C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleGPSTests-Prefix.pch";
+				INFOPLIST_FILE = "ExampleGPSTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VideoClass.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		CEAD779B17EDD3650063540C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = ExampleGPSTests;
+			};
+			name = Debug;
+		};
+		CEAD779C17EDD3650063540C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = ExampleGPSTests;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEAD775917EDD3640063540C /* Build configuration list for PBXProject "ExampleGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAD779117EDD3650063540C /* Debug */,
+				CEAD779217EDD3650063540C /* Release */,
+				CEAD779317EDD3650063540C /* Debug */,
+				CEAD779417EDD3650063540C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEAD779517EDD3650063540C /* Build configuration list for PBXNativeTarget "ExampleGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAD779617EDD3650063540C /* Debug */,
+				CEAD779717EDD3650063540C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEAD779817EDD3650063540C /* Build configuration list for PBXNativeTarget "ExampleGPSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAD779917EDD3650063540C /* Debug */,
+				CEAD779A17EDD3650063540C /* Release */,
+				CEAD779B17EDD3650063540C /* Debug */,
+				CEAD779C17EDD3650063540C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEAD775617EDD3640063540C /* Project object */;
+}

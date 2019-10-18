@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D2676FE1CAFEB5A00843903 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2676FD1CAFEB5A00843903 /* Default-568h@2x.png */; };
+		CEF23EE215FFB669001F571F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF23EE115FFB669001F571F /* UIKit.framework */; };
+		CEF23EE415FFB669001F571F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF23EE315FFB669001F571F /* Foundation.framework */; };
+		CEF23EE615FFB669001F571F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF23EE515FFB669001F571F /* CoreGraphics.framework */; };
+		CEF23EEB15FFB669001F571F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEF23EE915FFB669001F571F /* InfoPlist.strings */; };
+		CEF23EED15FFB669001F571F /* TestProgressView-main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF23EEC15FFB669001F571F /* TestProgressView-main.m */; };
+		CEF23EF015FFB669001F571F /* TestProgressViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF23EEF15FFB669001F571F /* TestProgressViewAppDelegate.m */; };
+		CEF23EF315FFB669001F571F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF23EF115FFB669001F571F /* MainWindow.xib */; };
+		CEF23EF615FFB669001F571F /* TestProgressViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF23EF515FFB669001F571F /* TestProgressViewViewController.m */; };
+		CEF23EF915FFB669001F571F /* TestProgressViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF23EF715FFB669001F571F /* TestProgressViewViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D2676FD1CAFEB5A00843903 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEF23EDE15FFB669001F571F /* TestProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF23EE115FFB669001F571F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEF23EE315FFB669001F571F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEF23EE515FFB669001F571F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEF23EE715FFB669001F571F /* TestProgressView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestProgressView-Info.plist"; sourceTree = "<group>"; };
+		CEF23EE815FFB669001F571F /* TestProgressView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestProgressView-Prefix.pch"; sourceTree = "<group>"; };
+		CEF23EEA15FFB669001F571F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEF23EEC15FFB669001F571F /* TestProgressView-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TestProgressView-main.m"; sourceTree = "<group>"; };
+		CEF23EEE15FFB669001F571F /* TestProgressViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProgressViewAppDelegate.h; sourceTree = "<group>"; };
+		CEF23EEF15FFB669001F571F /* TestProgressViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestProgressViewAppDelegate.m; sourceTree = "<group>"; };
+		CEF23EF215FFB669001F571F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CEF23EF415FFB669001F571F /* TestProgressViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProgressViewViewController.h; sourceTree = "<group>"; };
+		CEF23EF515FFB669001F571F /* TestProgressViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestProgressViewViewController.m; sourceTree = "<group>"; };
+		CEF23EF815FFB669001F571F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TestProgressViewViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF23EDB15FFB669001F571F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF23EE215FFB669001F571F /* UIKit.framework in Frameworks */,
+				CEF23EE415FFB669001F571F /* Foundation.framework in Frameworks */,
+				CEF23EE615FFB669001F571F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEF23ECF15FFB669001F571F = {
+			isa = PBXGroup;
+			children = (
+				8D2676FD1CAFEB5A00843903 /* Default-568h@2x.png */,
+				CEF23ED615FFB669001F571F /* Classes */,
+				CEF23ED715FFB669001F571F /* Other Sources */,
+				CEF23ED815FFB669001F571F /* Resources */,
+				CEF23ED915FFB669001F571F /* Frameworks */,
+				CEF23EDF15FFB669001F571F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF23ED615FFB669001F571F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEF23EEE15FFB669001F571F /* TestProgressViewAppDelegate.h */,
+				CEF23EEF15FFB669001F571F /* TestProgressViewAppDelegate.m */,
+				CEF23EF415FFB669001F571F /* TestProgressViewViewController.h */,
+				CEF23EF515FFB669001F571F /* TestProgressViewViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CEF23ED715FFB669001F571F /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CEF23EE815FFB669001F571F /* TestProgressView-Prefix.pch */,
+				CEF23EEC15FFB669001F571F /* TestProgressView-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		CEF23ED815FFB669001F571F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEF23EE715FFB669001F571F /* TestProgressView-Info.plist */,
+				CEF23EE915FFB669001F571F /* InfoPlist.strings */,
+				CEF23EF115FFB669001F571F /* MainWindow.xib */,
+				CEF23EF715FFB669001F571F /* TestProgressViewViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CEF23ED915FFB669001F571F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEF23EE115FFB669001F571F /* UIKit.framework */,
+				CEF23EE315FFB669001F571F /* Foundation.framework */,
+				CEF23EE515FFB669001F571F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEF23EDF15FFB669001F571F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF23EDE15FFB669001F571F /* TestProgressView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF23EDD15FFB669001F571F /* TestProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF23EFC15FFB669001F571F /* Build configuration list for PBXNativeTarget "TestProgressView" */;
+			buildPhases = (
+				CEF23EDA15FFB669001F571F /* Sources */,
+				CEF23EDB15FFB669001F571F /* Frameworks */,
+				CEF23EDC15FFB669001F571F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestProgressView;
+			productName = TestProgressView;
+			productReference = CEF23EDE15FFB669001F571F /* TestProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF23ED115FFB669001F571F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = CEF23ED415FFB669001F571F /* Build configuration list for PBXProject "TestProgressView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEF23ECF15FFB669001F571F;
+			productRefGroup = CEF23EDF15FFB669001F571F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF23EDD15FFB669001F571F /* TestProgressView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF23EDC15FFB669001F571F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF23EEB15FFB669001F571F /* InfoPlist.strings in Resources */,
+				8D2676FE1CAFEB5A00843903 /* Default-568h@2x.png in Resources */,
+				CEF23EF315FFB669001F571F /* MainWindow.xib in Resources */,
+				CEF23EF915FFB669001F571F /* TestProgressViewViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF23EDA15FFB669001F571F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF23EED15FFB669001F571F /* TestProgressView-main.m in Sources */,
+				CEF23EF015FFB669001F571F /* TestProgressViewAppDelegate.m in Sources */,
+				CEF23EF615FFB669001F571F /* TestProgressViewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEF23EE915FFB669001F571F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF23EEA15FFB669001F571F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEF23EF115FFB669001F571F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF23EF215FFB669001F571F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CEF23EF715FFB669001F571F /* TestProgressViewViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF23EF815FFB669001F571F /* en */,
+			);
+			name = TestProgressViewViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF23EFA15FFB669001F571F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEF23EFB15FFB669001F571F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CEF23EFD15FFB669001F571F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestProgressView-Prefix.pch";
+				INFOPLIST_FILE = "TestProgressView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEF23EFE15FFB669001F571F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestProgressView-Prefix.pch";
+				INFOPLIST_FILE = "TestProgressView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF23ED415FFB669001F571F /* Build configuration list for PBXProject "TestProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF23EFA15FFB669001F571F /* Debug */,
+				CEF23EFB15FFB669001F571F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF23EFC15FFB669001F571F /* Build configuration list for PBXNativeTarget "TestProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF23EFD15FFB669001F571F /* Debug */,
+				CEF23EFE15FFB669001F571F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF23ED115FFB669001F571F /* Project object */;
+}

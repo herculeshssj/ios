@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D2676F41CAFE96700843903 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2676F31CAFE96700843903 /* Default-568h@2x.png */; };
+		CE955AAA160D315600DEB1FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE955AA9160D315600DEB1FD /* UIKit.framework */; };
+		CE955AAC160D315600DEB1FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE955AAB160D315600DEB1FD /* Foundation.framework */; };
+		CE955AAE160D315600DEB1FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE955AAD160D315600DEB1FD /* CoreGraphics.framework */; };
+		CE955AB3160D315600DEB1FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE955AB1160D315600DEB1FD /* InfoPlist.strings */; };
+		CE955AB5160D315600DEB1FD /* UIToolbarExample-main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE955AB4160D315600DEB1FD /* UIToolbarExample-main.m */; };
+		CE955AB8160D315600DEB1FD /* UIToolbarExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE955AB7160D315600DEB1FD /* UIToolbarExampleAppDelegate.m */; };
+		CE955ABB160D315600DEB1FD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE955AB9160D315600DEB1FD /* MainWindow.xib */; };
+		CE955ABE160D315600DEB1FD /* UIToolbarExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE955ABD160D315600DEB1FD /* UIToolbarExampleViewController.m */; };
+		CE955AC1160D315600DEB1FD /* UIToolbarExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE955ABF160D315600DEB1FD /* UIToolbarExampleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D2676F31CAFE96700843903 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE955AA6160D315600DEB1FD /* UIToolbarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIToolbarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE955AA9160D315600DEB1FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE955AAB160D315600DEB1FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE955AAD160D315600DEB1FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE955AAF160D315600DEB1FD /* UIToolbarExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIToolbarExample-Info.plist"; sourceTree = "<group>"; };
+		CE955AB0160D315600DEB1FD /* UIToolbarExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIToolbarExample-Prefix.pch"; sourceTree = "<group>"; };
+		CE955AB2160D315600DEB1FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE955AB4160D315600DEB1FD /* UIToolbarExample-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIToolbarExample-main.m"; sourceTree = "<group>"; };
+		CE955AB6160D315600DEB1FD /* UIToolbarExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIToolbarExampleAppDelegate.h; sourceTree = "<group>"; };
+		CE955AB7160D315600DEB1FD /* UIToolbarExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIToolbarExampleAppDelegate.m; sourceTree = "<group>"; };
+		CE955ABA160D315600DEB1FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CE955ABC160D315600DEB1FD /* UIToolbarExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIToolbarExampleViewController.h; sourceTree = "<group>"; };
+		CE955ABD160D315600DEB1FD /* UIToolbarExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIToolbarExampleViewController.m; sourceTree = "<group>"; };
+		CE955AC0160D315600DEB1FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UIToolbarExampleViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE955AA3160D315600DEB1FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE955AAA160D315600DEB1FD /* UIKit.framework in Frameworks */,
+				CE955AAC160D315600DEB1FD /* Foundation.framework in Frameworks */,
+				CE955AAE160D315600DEB1FD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE955A97160D315600DEB1FD = {
+			isa = PBXGroup;
+			children = (
+				8D2676F31CAFE96700843903 /* Default-568h@2x.png */,
+				CE955A9E160D315600DEB1FD /* Classes */,
+				CE955A9F160D315600DEB1FD /* Other Sources */,
+				CE955AA0160D315600DEB1FD /* Resources */,
+				CE955AA1160D315600DEB1FD /* Frameworks */,
+				CE955AA7160D315600DEB1FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE955A9E160D315600DEB1FD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE955AB6160D315600DEB1FD /* UIToolbarExampleAppDelegate.h */,
+				CE955AB7160D315600DEB1FD /* UIToolbarExampleAppDelegate.m */,
+				CE955ABC160D315600DEB1FD /* UIToolbarExampleViewController.h */,
+				CE955ABD160D315600DEB1FD /* UIToolbarExampleViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CE955A9F160D315600DEB1FD /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CE955AB0160D315600DEB1FD /* UIToolbarExample-Prefix.pch */,
+				CE955AB4160D315600DEB1FD /* UIToolbarExample-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		CE955AA0160D315600DEB1FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE955AAF160D315600DEB1FD /* UIToolbarExample-Info.plist */,
+				CE955AB1160D315600DEB1FD /* InfoPlist.strings */,
+				CE955AB9160D315600DEB1FD /* MainWindow.xib */,
+				CE955ABF160D315600DEB1FD /* UIToolbarExampleViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CE955AA1160D315600DEB1FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE955AA9160D315600DEB1FD /* UIKit.framework */,
+				CE955AAB160D315600DEB1FD /* Foundation.framework */,
+				CE955AAD160D315600DEB1FD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE955AA7160D315600DEB1FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE955AA6160D315600DEB1FD /* UIToolbarExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE955AA5160D315600DEB1FD /* UIToolbarExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE955AC4160D315600DEB1FD /* Build configuration list for PBXNativeTarget "UIToolbarExample" */;
+			buildPhases = (
+				CE955AA2160D315600DEB1FD /* Sources */,
+				CE955AA3160D315600DEB1FD /* Frameworks */,
+				CE955AA4160D315600DEB1FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIToolbarExample;
+			productName = UIToolbarExample;
+			productReference = CE955AA6160D315600DEB1FD /* UIToolbarExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE955A99160D315600DEB1FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = CE955A9C160D315600DEB1FD /* Build configuration list for PBXProject "UIToolbarExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE955A97160D315600DEB1FD;
+			productRefGroup = CE955AA7160D315600DEB1FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE955AA5160D315600DEB1FD /* UIToolbarExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE955AA4160D315600DEB1FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE955AB3160D315600DEB1FD /* InfoPlist.strings in Resources */,
+				8D2676F41CAFE96700843903 /* Default-568h@2x.png in Resources */,
+				CE955ABB160D315600DEB1FD /* MainWindow.xib in Resources */,
+				CE955AC1160D315600DEB1FD /* UIToolbarExampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE955AA2160D315600DEB1FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE955AB5160D315600DEB1FD /* UIToolbarExample-main.m in Sources */,
+				CE955AB8160D315600DEB1FD /* UIToolbarExampleAppDelegate.m in Sources */,
+				CE955ABE160D315600DEB1FD /* UIToolbarExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE955AB1160D315600DEB1FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE955AB2160D315600DEB1FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE955AB9160D315600DEB1FD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE955ABA160D315600DEB1FD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CE955ABF160D315600DEB1FD /* UIToolbarExampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE955AC0160D315600DEB1FD /* en */,
+			);
+			name = UIToolbarExampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE955AC2160D315600DEB1FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE955AC3160D315600DEB1FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CE955AC5160D315600DEB1FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIToolbarExample-Prefix.pch";
+				INFOPLIST_FILE = "UIToolbarExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE955AC6160D315600DEB1FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIToolbarExample-Prefix.pch";
+				INFOPLIST_FILE = "UIToolbarExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE955A9C160D315600DEB1FD /* Build configuration list for PBXProject "UIToolbarExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE955AC2160D315600DEB1FD /* Debug */,
+				CE955AC3160D315600DEB1FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE955AC4160D315600DEB1FD /* Build configuration list for PBXNativeTarget "UIToolbarExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE955AC5160D315600DEB1FD /* Debug */,
+				CE955AC6160D315600DEB1FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE955A99160D315600DEB1FD /* Project object */;
+}

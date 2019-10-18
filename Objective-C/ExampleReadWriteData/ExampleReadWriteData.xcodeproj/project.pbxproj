@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D2676D41CAFDDC200843903 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2676D31CAFDDC200843903 /* libsqlite3.tbd */; };
+		8D2676D61CAFDDE800843903 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2676D51CAFDDE800843903 /* Default-568h@2x.png */; };
+		CE4088A716D7E88400BCE441 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4088A616D7E88400BCE441 /* UIKit.framework */; };
+		CE4088A916D7E88400BCE441 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4088A816D7E88400BCE441 /* Foundation.framework */; };
+		CE4088AB16D7E88400BCE441 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4088AA16D7E88400BCE441 /* CoreGraphics.framework */; };
+		CE4088B016D7E88400BCE441 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE4088AE16D7E88400BCE441 /* InfoPlist.strings */; };
+		CE4088B216D7E88400BCE441 /* ExampleReadWriteData-main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4088B116D7E88400BCE441 /* ExampleReadWriteData-main.m */; };
+		CE4088B516D7E88400BCE441 /* ExampleReadWriteDataAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4088B416D7E88400BCE441 /* ExampleReadWriteDataAppDelegate.m */; };
+		CE4088B816D7E88400BCE441 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4088B616D7E88400BCE441 /* MainWindow.xib */; };
+		CE4088BB16D7E88400BCE441 /* ExampleReadWriteDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4088BA16D7E88400BCE441 /* ExampleReadWriteDataViewController.m */; };
+		CE4088BE16D7E88400BCE441 /* ExampleReadWriteDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4088BC16D7E88400BCE441 /* ExampleReadWriteDataViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D2676D31CAFDDC200843903 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		8D2676D51CAFDDE800843903 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE4088A316D7E88400BCE441 /* ExampleReadWriteData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleReadWriteData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4088A616D7E88400BCE441 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE4088A816D7E88400BCE441 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE4088AA16D7E88400BCE441 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE4088AC16D7E88400BCE441 /* ExampleReadWriteData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleReadWriteData-Info.plist"; sourceTree = "<group>"; };
+		CE4088AD16D7E88400BCE441 /* ExampleReadWriteData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExampleReadWriteData-Prefix.pch"; sourceTree = "<group>"; };
+		CE4088AF16D7E88400BCE441 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE4088B116D7E88400BCE441 /* ExampleReadWriteData-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ExampleReadWriteData-main.m"; sourceTree = "<group>"; };
+		CE4088B316D7E88400BCE441 /* ExampleReadWriteDataAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleReadWriteDataAppDelegate.h; sourceTree = "<group>"; };
+		CE4088B416D7E88400BCE441 /* ExampleReadWriteDataAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleReadWriteDataAppDelegate.m; sourceTree = "<group>"; };
+		CE4088B716D7E88400BCE441 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CE4088B916D7E88400BCE441 /* ExampleReadWriteDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleReadWriteDataViewController.h; sourceTree = "<group>"; };
+		CE4088BA16D7E88400BCE441 /* ExampleReadWriteDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleReadWriteDataViewController.m; sourceTree = "<group>"; };
+		CE4088BD16D7E88400BCE441 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ExampleReadWriteDataViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE4088A016D7E88400BCE441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2676D41CAFDDC200843903 /* libsqlite3.tbd in Frameworks */,
+				CE4088A716D7E88400BCE441 /* UIKit.framework in Frameworks */,
+				CE4088A916D7E88400BCE441 /* Foundation.framework in Frameworks */,
+				CE4088AB16D7E88400BCE441 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE40889416D7E88400BCE441 = {
+			isa = PBXGroup;
+			children = (
+				8D2676D51CAFDDE800843903 /* Default-568h@2x.png */,
+				CE40889B16D7E88400BCE441 /* Classes */,
+				CE40889C16D7E88400BCE441 /* Other Sources */,
+				CE40889D16D7E88400BCE441 /* Resources */,
+				CE40889E16D7E88400BCE441 /* Frameworks */,
+				CE4088A416D7E88400BCE441 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE40889B16D7E88400BCE441 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE4088B316D7E88400BCE441 /* ExampleReadWriteDataAppDelegate.h */,
+				CE4088B416D7E88400BCE441 /* ExampleReadWriteDataAppDelegate.m */,
+				CE4088B916D7E88400BCE441 /* ExampleReadWriteDataViewController.h */,
+				CE4088BA16D7E88400BCE441 /* ExampleReadWriteDataViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CE40889C16D7E88400BCE441 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CE4088AD16D7E88400BCE441 /* ExampleReadWriteData-Prefix.pch */,
+				CE4088B116D7E88400BCE441 /* ExampleReadWriteData-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		CE40889D16D7E88400BCE441 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE4088AC16D7E88400BCE441 /* ExampleReadWriteData-Info.plist */,
+				CE4088AE16D7E88400BCE441 /* InfoPlist.strings */,
+				CE4088B616D7E88400BCE441 /* MainWindow.xib */,
+				CE4088BC16D7E88400BCE441 /* ExampleReadWriteDataViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CE40889E16D7E88400BCE441 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D2676D31CAFDDC200843903 /* libsqlite3.tbd */,
+				CE4088A616D7E88400BCE441 /* UIKit.framework */,
+				CE4088A816D7E88400BCE441 /* Foundation.framework */,
+				CE4088AA16D7E88400BCE441 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE4088A416D7E88400BCE441 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE4088A316D7E88400BCE441 /* ExampleReadWriteData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE4088A216D7E88400BCE441 /* ExampleReadWriteData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4088C116D7E88400BCE441 /* Build configuration list for PBXNativeTarget "ExampleReadWriteData" */;
+			buildPhases = (
+				CE40889F16D7E88400BCE441 /* Sources */,
+				CE4088A016D7E88400BCE441 /* Frameworks */,
+				CE4088A116D7E88400BCE441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleReadWriteData;
+			productName = ExampleReadWriteData;
+			productReference = CE4088A316D7E88400BCE441 /* ExampleReadWriteData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE40889616D7E88400BCE441 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = CE40889916D7E88400BCE441 /* Build configuration list for PBXProject "ExampleReadWriteData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE40889416D7E88400BCE441;
+			productRefGroup = CE4088A416D7E88400BCE441 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE4088A216D7E88400BCE441 /* ExampleReadWriteData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE4088A116D7E88400BCE441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4088B016D7E88400BCE441 /* InfoPlist.strings in Resources */,
+				8D2676D61CAFDDE800843903 /* Default-568h@2x.png in Resources */,
+				CE4088B816D7E88400BCE441 /* MainWindow.xib in Resources */,
+				CE4088BE16D7E88400BCE441 /* ExampleReadWriteDataViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE40889F16D7E88400BCE441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4088B216D7E88400BCE441 /* ExampleReadWriteData-main.m in Sources */,
+				CE4088B516D7E88400BCE441 /* ExampleReadWriteDataAppDelegate.m in Sources */,
+				CE4088BB16D7E88400BCE441 /* ExampleReadWriteDataViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE4088AE16D7E88400BCE441 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE4088AF16D7E88400BCE441 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE4088B616D7E88400BCE441 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE4088B716D7E88400BCE441 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CE4088BC16D7E88400BCE441 /* ExampleReadWriteDataViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE4088BD16D7E88400BCE441 /* en */,
+			);
+			name = ExampleReadWriteDataViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE4088BF16D7E88400BCE441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE4088C016D7E88400BCE441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CE4088C216D7E88400BCE441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleReadWriteData-Prefix.pch";
+				INFOPLIST_FILE = "ExampleReadWriteData-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE4088C316D7E88400BCE441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleReadWriteData-Prefix.pch";
+				INFOPLIST_FILE = "ExampleReadWriteData-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "MacCourse.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE40889916D7E88400BCE441 /* Build configuration list for PBXProject "ExampleReadWriteData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4088BF16D7E88400BCE441 /* Debug */,
+				CE4088C016D7E88400BCE441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE4088C116D7E88400BCE441 /* Build configuration list for PBXNativeTarget "ExampleReadWriteData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4088C216D7E88400BCE441 /* Debug */,
+				CE4088C316D7E88400BCE441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE40889616D7E88400BCE441 /* Project object */;
+}
